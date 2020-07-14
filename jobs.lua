@@ -2352,7 +2352,7 @@ TEAM_JEDI = DarkRP.createJob("Master of the Order Mace Windu", {
 })
 TEAM_JEDI = DarkRP.createJob("Grandmaster Yoda", {
     color = Color(0, 255, 0, 255),
-    model = {"models/tfa/comm/gg/pm_sw_yoda.mdl"},
+    model = {"models/tfa/comm/gg/pm_sw_yodanojig.mdl"},
     description = [[The Jedi are the main Generals in the Clone Wars, fighting hard alongside the Clones. They are to be respected at all times.]],
     weapons = {"weapon_lightsaber_personal", "clone_card_c4", "dradio", "pack_swswep_yoda", "cross_arms_swep","cross_arms_infront_swep"},
     command = "yoda",
