@@ -2914,8 +2914,46 @@ TEAM_SHANE = DarkRP.createJob("Fault", {
         ply:SetArmor(200)
     end
 })
-
-
+TEAM_SMITH = DarkRP.createJob("Shock: Trooper", {
+    color = Color(255, 0, 15, 255),
+    model = {"models/player/gideon/coruscantguards/thire/cg_thire.mdl"},
+    description = [[Clone shock troopers, also referred to as shocktroopers, stormtroopers or guardsmen, were the clone troopers of the Coruscant Guard, an elite force founded during the Clone Wars between the Galactic Republic and the Confederacy of Independent Systems.]],
+    weapons = {"rw_sw_stun_dc15s", "rw_sw_dual_dc15s", "clone_card_c3navy", "dradio", "salute_swep", "weapon_rpw_binoculars", "cross_arms_swep", "cross_arms_infront_swep", "zeus_thermaldet", "climb_swep2", "realistic_hook", "tfa_t21b","arrest_stick", "unarrest_stick", "weapon_cuff_elastic"},
+    command = "smith",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(250)
+        ply:SetRunSpeed(300)
+        ply:SetWalkSpeed(150)
+    end
+})
+TEAM_ATLANTA = DarkRP.createJob("91st: Atlanta Lightning Squad Lead", {
+    color = Color(196, 0, 0, 255),
+    model = {"models/player/synergy/cblake/91st/arf/91starf.mdl"},
+    description = [[When Commander Ponds met his fate, someone had to take his place. Answering only to Neyo and Mace Windu, Atlanta leads the elite unit of soldiers known as Lightning Squad.]],
+    weapons = {"gauss", "dw_wrist_rocket", "seal6-c4", "rw_ammo_distributor", "realistic_hook", "dradio", "clone_card_c2", "salute_swep", "climb_swep2"},
+    command = "catlanta",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
 --[[
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
@@ -3552,9 +3590,9 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Lead", {
 --]]
 TEAM_RI = DarkRP.createJob("Republic Intelligence Detatchment: Leader", {
     color = Color(66, 36, 36, 255),
-    model = {"models/omega/stealthopsofficer/stealthopsofficer.mdl"},
+    model = {"models/cgi_ultimate/shadow/commander/commander.mdl"},
     description = [[Ground Leader of a Republic Intelligence Squad]],
-    weapons = {"rw_sw_dc15s", "rw_sw_dual_dc17", "clone_card_c3", "salute_swep", "climb_swep2", "dradio"},
+    weapons = {"tfa_e11d_extended", "rw_sw_dual_dc17", "clone_card_c3", "salute_swep", "climb_swep2", "dradio"},
     command = "crilead",
     max = 1,
     salary = 250,
@@ -3576,7 +3614,7 @@ TEAM_RI = DarkRP.createJob("Republic Intelligence Detatchment: Leader", {
 --]]
 TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Sniper", {
     color = Color(66, 36, 36, 255),
-    model = {"models/omega/spectre/spectre.mdl"},
+    model = {"models/cgi_ultimate/shadow/arf/arf.mdl"},
     description = [[Sniper/Recon Soldier of a Republic Intelligence Squad]],
     weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc15x", "rw_sw_dc17", "weapon_rpw_binoculars"},
     command = "crisnip",
@@ -3600,9 +3638,9 @@ TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Sniper", {
 --]]
 TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Medic", {
     color = Color(66, 36, 36, 255),
-    model = {"models/omega/stealthopstrooper/stealthopstrooper.mdl"},
+    model = {"models/cgi_ultimate/shadow/medic/medic.mdl"},
     description = [[Medic of a Republic Intelligence Squad]],
-    weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc17", "rw_sw_dc15s", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
+    weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc17", "tfa_e11d_extended", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
     command = "crimed",
     max = 1,
     salary = 150,
@@ -3624,9 +3662,9 @@ TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Medic", {
 --]]
 TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Pilot", {
     color = Color(66, 36, 36, 255),
-    model = {"models/omega/stealthopstrooper/stealthopstrooper.mdl"},
+    model = {"models/cgi_ultimate/shadow/pilot/pilot.mdl"},
     description = [[Pilot of a Republic Intelligence Squad]],
-    weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc17", "rw_sw_dc15s"},
+    weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc17", "tfa_e11d_extended"},
     command = "cripilot",
     max = 1,
     salary = 150,
@@ -3648,7 +3686,7 @@ TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Pilot", {
 --]]
 TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Breacher", {
     color = Color(66, 36, 36, 255),
-    model = {"models/omega/stealthopstrooper/stealthopstrooper.mdl"},
+    model = {"models/cgi_ultimate/shadow/paratrooper/paratrooper.mdl"},
     description = [[ Breacher of a Republic Intelligence Squad]],
     weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc17", "rw_sw_dp23", "seal6-c4", "zeus_thermaldet"},
     command = "cribreach",
@@ -3709,11 +3747,11 @@ TEAM_JACK = DarkRP.createJob("Jack of All Trades", {
     end
 })
 
-TEAM_NER = DarkRP.createJob("Ner Trizluang", {
+TEAM_NER = DarkRP.createJob("Kal Skirata", {
     color = Color(253, 1, 1, 255),
-    model = {"models/kylejwest/synergyroleplay/sr3dnullmereelmando/sr3dnullmereelmando.mdl"},
-    description = [[A mandalorian that kal skirata saved. He is fully loyal to the skirata family. Also doesnt like jedi.]],
-    weapons = {"rw_ammo_distributor", "sneakyjetpack", "realistic_hook", "iqa11_sniper_rifle", "rw_sw_z6", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
+    model = {"models/kylejwest/synergyroleplay/sr3dnullkalskirata/sr3dnullkalskirata.mdl"},
+    description = [[Leader of the mandalorian protectors, this mandalorian helped in the training of clones on kamino, and now leads the mandalorian protectors and the clans that follow it. He will lead his followers to glory and honor, and fight with the republic against the CIS until he dies.]],
+    weapons = {"rw_ammo_distributor", "weapon_bactainjector", "realistic_hook", "iqa11_sniper_rifle", "rw_sw_z6", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
     command = "ctrizl",
     max = 1,
     salary = 150,
@@ -3728,7 +3766,101 @@ TEAM_NER = DarkRP.createJob("Ner Trizluang", {
         ply:SetArmor(150)
     end
 })
-
+TEAM_NER = DarkRP.createJob("Mandalorian Clan Leader", {
+    color = Color(253, 1, 1, 255),
+    model = {"models/kylejwest/synergyroleplay/sr3dnullprudiimando/sr3dnullprudiimando.mdl"},
+    description = [[This Mandalorian is a skilled leader and warrior and has earned the right to found his/her own clan within the Mandalorian Protectors, they still anwser to Kal Skirata, but they have full authority over those who bear the name of their clan. They are fearless, courageous, smart, all the traits that are needed to make a truly fearsome warrior. Pray that you never meet them in battle.]],
+    weapons = {"rw_ammo_distributor", "zeus_thermaldet", "realistic_hook", "tfa_sw_westardual", "dw_wrist_rocket", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
+    command = "mlead",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
+})
+TEAM_NER = DarkRP.createJob("Mandalorian Decimater", {
+    color = Color(253, 1, 1, 255),
+    model = {"models/kylejwest/synergyroleplay/sr3dnulladenmando/sr3dnulladenmando.mdl"},
+    description = [[These Mandalorians are trained for one purpose. To utterly Decimate enemy vehicles, infantry, fortifications, and just be and unstoppable juggernaut. They are defensive powerhouses and do well on the offensive, however due to their weapons be inaccurate at range and being slow, they should be used to clear buildings, hold chokepoints, or act as a mobile anti-armor or anti-air for their allies. You should hope to never assualt a fortification with them on it, as they will take down hundreds before they fall.]],
+    weapons = {"rw_ammo_distributor", "zeus_thermaldet", "seal6-c4", "alydus_fortificationbuildertablet", "tfa_swch_clonelauncher_3", "rw_sw_z6", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
+    command = "mdeci",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
+TEAM_NER = DarkRP.createJob("Mandalorian Warrior", {
+    color = Color(253, 1, 1, 255),
+    model = {"models/kylejwest/synergyroleplay/sr3dnullkomrkmando/sr3dnullkomrkmando.mdl"},
+    description = [[Warriors Of Mandalore, some of the finest warriors in the galaxy, an all around go warrior that can handle almost any situation that come their way, they can be a fast and agile warrior, using their jetpack to flank enemies, or fight on the ground with deadly effect. They what a true warrior should aspire to be.]],
+    weapons = {"rw_ammo_distributor", "zeus_thermaldet", "realistic_hook", "westar35_blaster_carbine", "mm9_missile_launcher", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
+    command = "mwar",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(100)
+    end
+})
+TEAM_NER = DarkRP.createJob("Mandalorian Assassin", {
+    color = Color(253, 1, 1, 255),
+    model = {"models/kylejwest/synergyroleplay/sr3dnullmereelmando/sr3dnullmereelmando.mdl"},
+    description = [[The skilled warriors have honed their marksmanship to accompany stealth, a deadly combination which makes the the perfect scout, sniper, and of course a Assassin. They are agile due to their weaponary and are masters of attacking from an unexpected spot and sneaking away without being detected. However deadly they are, it comes at a cost of their amro not being up to the normal mandalorian armor since they really on speed and stealth. Regardless, if you have a bounty on your head, i would sleep with one eye open and be constantly checking over your shoulder.]],
+    weapons = {"weapon_camo", "zeus_flashbang", "realistic_hook", "iqa11_sniper_rifle", "tfa_krennic_black", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
+    command = "mass",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(50)
+    end
+})
+TEAM_NER = DarkRP.createJob("Mandalorian Guardian", {
+    color = Color(253, 1, 1, 255),
+    model = {"models/kylejwest/synergyroleplay/sr3dnullordomando/sr3dnullordomando.mdl"},
+    description = [[The Mandalorians are trained to guard the Clans camps, houses, and towns so that no outsider can dare harm anyone in the clan. They are trained to be deadly accurate and to be fearless. When on a mission it is their duty to defend the clan leaders at all costs, even if it means sacrificing themselves. They also specialize in the medical field for this reason (must be medicaly trained to qualify for this job). All in all, a fierce warrior.]],
+    weapons = {"weapon_defibrillator", "weapon_bacta_grenade", "weapon_bactainjector", "westar35_blaster_carbine", "tfa_swch_de10", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
+    command = "mguard",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
+})
 TEAM_GAVIN = DarkRP.createJob("Senate Guard: Gavin", {
     color = Color(0, 50, 168, 255),
     model = {"models/player/senatemedic2/senateguard.mdl"},
