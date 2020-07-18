@@ -3502,7 +3502,7 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Medic", {
         "models/player/gary/starwars/10/10th_zhidus.mdl", 
         "models/player/gary/commission/starwars/simba_tactical.mdl"},
     description = [[Jumping feet first into hell and dragging everyone back alive.]],
-    weapons = {"weapon_bacta_grenade", "weapon_bactainjector", "realistic_hook", "dradio", "cross_arms_swep", "climb_swep2", "salute_swep", "weapon_defibrillator", "tfa_swch_dc17m_10th", "cc2018_dc15p_red","weapon_jew_stimkit"},
+    weapons = {"clone_card_c3","weapon_bacta_grenade", "weapon_bactainjector", "realistic_hook", "dradio", "cross_arms_swep", "climb_swep2", "salute_swep", "weapon_defibrillator", "tfa_swch_dc17m_10th", "cc2018_dc15p_red","weapon_jew_stimkit"},
     command = "HellMed",
     max = 1,
     salary = 250,
@@ -3524,7 +3524,7 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Anti Tank", {
     model = {"models/player/gary/starwars/10/10th_officer_2.mdl", 
         "models/player/gary/commission/starwars/omen_srt.mdl"},
     description = [[Jumping feet first into hell and blowing everything to bits]],
-    weapons = {"realistic_hook", "weapon_jew_det", "zeus_thermaldet", "cc2018_dc17maa", "cross_arms_swep", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "cc2018_dc15p_red"},
+    weapons = {"clone_card_c3","realistic_hook", "weapon_jew_det", "seal6-c4", "zeus_thermaldet", "cc2018_dc17maa", "cross_arms_swep", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "cc2018_dc15p_red"},
     command = "HellTank",
     max = 1,
     salary = 250,
@@ -3546,7 +3546,7 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Marksman", {
         "models/player/gary/starwars/10/10th_marksman_2.mdl", 
         "models/player/gary/commission/starwars/omen_srt.mdl"},
     description = [[Jumping feet first into hell and finding a nice ledge far away from the fire to pop some heads from.]],
-    weapons = {"realistic_hook", "weapon_rpw_binoculars_scout", "zeus_flashbang", "zeus_smokegranade", "cross_arms_swep", "cc2018_dc17ms_red", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "cc2018_dc15p_red"},
+    weapons = {"clone_card_c3", "realistic_hook", "weapon_rpw_binoculars_scout", "zeus_flashbang", "zeus_smokegranade", "cross_arms_swep", "cc2018_dc17ms_red", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "cc2018_dc15p_red"},
     command = "HellMark",
     max = 1,
     salary = 250,
@@ -3567,7 +3567,7 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Lead", {
     model = { "models/player/gary/starwars/10/10th_mustang_2.mdl", "models/player/gary/starwars/10/10th_raz.mdl",
 "models/player/gary/starwars/10/10th_zair.mdl"},
     description = [[Jumping feet first into hell, Now with Responsibility ]],
-    weapons = {"realistic_hook", "zeus_thermaldet", "weapon_rpw_binoculars_scout", "cross_arms_swep", "cross_arms_infront_swep", "weapon_jew_stimkit", "zeus_flashbang", "rw_sw_dual_dc-10s", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "cc2018_dc17msg_red"},
+    weapons = {"CloneCardLvl4","realistic_hook", "m9k_knife", "zeus_thermaldet", "weapon_rpw_binoculars_scout", "cross_arms_swep", "cross_arms_infront_swep", "weapon_jew_stimkit", "zeus_flashbang", "rw_sw_dual_dc-10s", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "cc2018_dc17msg_red"},
     command = "HellLead",
     max = 1,
     salary = 250,
@@ -3585,6 +3585,27 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Lead", {
         ply:SetRunSpeed(400)
     end
     })
+TEAM_10TH = DarkRP.createJob("10th Knife", {
+    color = Color(125, 0, 0, 255),
+    model = {"models/gonzo/darthmalice/darthmalice.mdl"},
+    description = [[Once a Jedi knight, Knife fell to temptation to learn skills only found on the dark side, when the council found out he was stripped of his rank and joined the republic army alongside the 10th]],
+    weapons = {"CloneCardLvl4", "pack_swswep_lordstarkiller1", "m9k_knife", "dradio", "climb_swep2", "forcechoke", "tfa_swch_dc17m_10th", "weapon_lightsaber_personal","cross_arms_infront_swep","cross_arms_swep"},
+    command = "10knife",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "10th Helljumper",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
+        ply:SetArmor(1000)
+        ply:SetWalkSpeed(250)
+        ply:SetRunSpeed(400)
+    end
+})
 	--[[
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
@@ -3689,7 +3710,7 @@ TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Breacher", {
     color = Color(66, 36, 36, 255),
     model = {"models/cgi_ultimate/shadow/paratrooper/paratrooper.mdl"},
     description = [[ Breacher of a Republic Intelligence Squad]],
-    weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc17", "tfa_e11d_extended", "seal6-c4", "zeus_thermaldet", "sfw_estaff"},
+    weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc17", "tfa_e11d_extended", "seal6-c4", "zeus_thermaldet"},
     command = "cribreach",
     max = 1,
     salary = 150,
