@@ -3585,7 +3585,7 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Lead", {
         ply:SetRunSpeed(400)
     end
     })
-TEAM_10TH = DarkRP.createJob("10th Knife", {
+TEAM_10TH = DarkRP.createJob("10th Helljumper Knife", {
     color = Color(125, 0, 0, 255),
     model = {"models/gonzo/darthmalice/darthmalice.mdl"},
     description = [[Once a Jedi knight, Knife fell to temptation to learn skills only found on the dark side, when the council found out he was stripped of his rank and joined the republic army alongside the 10th]],
