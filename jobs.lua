@@ -907,7 +907,7 @@ TEAM_RC = DarkRP.createJob("Republic Commando: Foxtrot Medic", {
     color = Color(34, 85, 85, 255),
     model = {"models/synergyroleplay/rcfoxtrotsquad/rcfoxtrottrooper3/rcfoxtrottrooper3.mdl"},
     description = [[Foxtrot Group was an elite squad of clone commandos that was attached to the 212th Attack Battalion during the Clone Wars.Led by Clone Captain CC-5576-39 , also known as Gregor.]],
-    weapons = {"climb_swep2", "dradio", "weapon_bactainjector", "cross_arms_swep", "cc2018_dc17m", "cc2018_dc17ms", "cc2018_dc17msg", "clone_card_c4", "salute_swep", "weapon_bacta_grenade"},
+    weapons = {"climb_swep2", "dradio", "weapon_bactainjector", "cross_arms_swep", "cc2018_dc17m", "cc2018_dc17ms", "cc2018_dc17msg", "clone_card_c4", "salute_swep", "weapon_bacta_grenade", "weapon_defibrillator"},
     command = "foxmed",
     max = 1,
     salary = 350,
@@ -2978,6 +2978,25 @@ TEAM_REDTAIL = DarkRP.createJob("73rd Shadow Company: Redtail", {
     end
 })
 
+TEAM_BOBBY = DarkRP.createJob("Wookie", {
+    color = Color(196, 0, 0, 255),
+    model = {"models/player/starwars/b4p_chewbacca.mdl"},
+    description = [[Fun Fact: Bobby backwards is ybboB]],
+    weapons = {"tfa_bowcaster", "rw_sw_z6", "dradio", "clone_card_c2", "zeus_thermaldet", "cross_arms_swep", "weapon_fists", "salute_swep", "climb_swep2", "pack_swswep_chewie","weapon_rpw_binoculars_scout"},
+    command = "cbobby",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(250)
+    end
+})
 --[[
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
@@ -3781,7 +3800,7 @@ TEAM_NER = DarkRP.createJob("Kal Skirata", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Custom Classes",
+    category = "Mandalorian Protectors",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
@@ -3800,7 +3819,7 @@ TEAM_NER = DarkRP.createJob("Mandalorian Clan Leader", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Custom Classes",
+    category = "Mandalorian Protectors",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
@@ -3819,7 +3838,7 @@ TEAM_NER = DarkRP.createJob("Mandalorian Decimater", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Custom Classes",
+    category = "Mandalorian Protectors",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
@@ -3838,7 +3857,7 @@ TEAM_NER = DarkRP.createJob("Mandalorian Warrior", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Custom Classes",
+    category = "Mandalorian Protectors",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
@@ -3857,7 +3876,7 @@ TEAM_NER = DarkRP.createJob("Mandalorian Assassin", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Custom Classes",
+    category = "Mandalorian Protectors",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
@@ -3876,7 +3895,7 @@ TEAM_NER = DarkRP.createJob("Mandalorian Guardian", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Custom Classes",
+    category = "Mandalorian Protectors",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
