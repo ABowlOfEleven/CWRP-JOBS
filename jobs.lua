@@ -2716,7 +2716,7 @@ TEAM_JEDI = DarkRP.createJob("Jedi: Master", {
         "models/player/zhidus/jedi/zabrak/zabrak.mdl"
     },
     description = [[The Jedi are the main Generals in the Clone Wars, fighting hard alongside the Clones. They are to be respected at all times.]],
-    weapons = {"weapon_lightsaber", "clone_card_c4", "dradio","cross_arms_infront_swep","cross_arms_swep"},
+    weapons = {"weapon_lightsaber_personal", "clone_card_c4", "dradio","cross_arms_infront_swep","cross_arms_swep"},
     command = "Master",
     max = 0,
     salary = 250,
@@ -2726,8 +2726,8 @@ TEAM_JEDI = DarkRP.createJob("Jedi: Master", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(4000)
-        ply:SetHealth(4000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
         ply:SetArmor(550)
     end
 })
