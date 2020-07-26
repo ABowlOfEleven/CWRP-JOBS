@@ -2146,67 +2146,82 @@ TEAM_BASEOPS = DarkRP.createJob("Base Ops: Engineer", {
     category = "Base Operations"
 })
 
-TEAM_AFTERLIFE = DarkRP.createJob("Afterlife Squad Leader", {
-    color = Color(0, 12, 64, 255),
-    model = {"models/player/gary/commission/starwars/brig_rambler.mdl"},
-    description = [[ An Overall Unit ]],
-    weapons = {"rw_sw_westarm5", "rw_sw_z6", "weapon_fists", "dradio", "rw_sw_dc15a", "salute_swep", "weapon_752_dc15s"},
-    command = "afterlifecommander",
+TEAM_GONK = DarkRP.createJob("Daisy", {
+    color = Color(0, 50, 168, 255),
+    model = {"models/jazzmcfly/jka/younglings/jka_young_shak.mdl"},
+    description = [[A Prodigy to Mace, but a god to the Gonks.]],
+    weapons = {"weapon_lightsaber_personal", "zeus_flashbang", "stunstick", "alydus_fortificationbuildertablet", "weapon_rpw_binoculars_scout", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
+    command = "Daisy",
     max = 1,
-    salary = 125,
+    salary = 250,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Afterlife Squad"
+    category = "Daisy's Gonk Squad",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
 })
-
-TEAM_AFTERLIFE = DarkRP.createJob("Afterlife Squad Heavy Unit", {
-    color = Color(0, 12, 64, 255),
-    model = {"models/player/banks/inferno_p1/inferno_p1heavy/inferno_p1_heavy.mdl"},
-    description = [[ An Overall Unit ]],
-    weapons = {"rw_sw_dc15a", "weapon_752_dc15s", "weapon_fists", "dradio", "rw_sw_z6", "salute_swep", "tfa_sw_repsnip"},
-    command = "afterlifeheavy",
+TEAM_GONK = DarkRP.createJob("Jade Vine", {
+    color = Color(0, 50, 168, 255),
+    model = {"models/gag/gaggonkdroid.mdl"},
+    description = [[Daisy made a portable Tank.]],
+    weapons = {"rw_sw_z6", "rw_sw_stun_dc15s", "weapon_hexshield", "alydus_fortificationbuildertablet", "pack_swswep_gonk", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
+    command = "Jade",
     max = 1,
-    salary = 105,
+    salary = 250,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Afterlife Squad"
+    category = "Daisy's Gonk Squad",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
 })
-
-TEAM_AFTERLIFE = DarkRP.createJob("Afterlife Squad Trooper", {
-    color = Color(0, 12, 64, 255),
-    model = {"models/player/banks/inferno_p1/inferno_p1t/inferno_p1_trooper.mdl"},
-    description = [[ An Overall Unit ]],
-    weapons = {"rw_sw_dc15a", "weapon_752_dc15s", "weapon_fists", "dradio", "tfa_sw_repsnip", "salute_swep"},
-    command = "afterlifetrooper",
+TEAM_GONK = DarkRP.createJob("Middlemist", {
+    color = Color(0, 50, 168, 255),
+    model = {"models/gag/gaggonkdroid.mdl"},
+    description = [[Somehow Daisy upgraded this gonk to a Medic]],
+    weapons = {"rw_sw_dual_dc15s", "weapon_bactainjector", "weapon_defibrillator", "weapon_bacta_grenade", "pack_swswep_gonk", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
+    command = "middlemist",
     max = 1,
-    salary = 105,
+    salary = 250,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Afterlife Squad"
+    category = "Daisy's Gonk Squad",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
 })
-
-TEAM_AFTERLIFE = DarkRP.createJob("Afterlife Squad AFR", {
-    color = Color(0, 12, 64, 255),
-    model = {"models/player/banks/inferno_p1/inferno_p1com/inferno_p1_commander.mdl"},
-    description = [[ An Overall Unit ]],
-    weapons = {"rw_sw_westarm5", "weapon_fists", "dradio", "rw_sw_dc15a", "salute_swep", "weapon_752_dc15s"},
-    command = "afterlifeafr",
+TEAM_GONK = DarkRP.createJob("Fire Lily", {
+    color = Color(0, 50, 168, 255),
+    model = {"models/gag/gaggonkdroid.mdl"},
+    description = [[Daisy somehow made Fire Gonk]],
+    weapons = {"flamethrower_variant", "zeus_flashbang", "rw_sw_dc15s", "pack_swswep_gonk", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
+    command = "firelily",
     max = 1,
-    salary = 110,
+    salary = 250,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Afterlife Squad"
+    category = "Daisy's Gonk Squad",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
 })
-
-
 
 Team_Theous = DarkRP.createJob("Zeus", {
     color = Color(219, 235, 65, 255),

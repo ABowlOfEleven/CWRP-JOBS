@@ -59,6 +59,14 @@ DarkRP.createCategory{
     canSee = function(ply) return true end,
     sortOrder = 9
 }
+DarkRP.createCategory{
+    name = "Daisy's Gonk Squad",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(4, 1, 1, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 10
+}
 --[[
     Generated using: DarkRP | Category Generator
     https://csite.io/tools/gmod-darkrp-category
