@@ -2929,7 +2929,7 @@ TEAM_SHANE = DarkRP.createJob("Fault", {
         ply:SetArmor(200)
     end
 })
-TEAM_SMITH = DarkRP.createJob("Shock: Trooper", {
+TEAM_SMITH = DarkRP.createJob("Shock: Trooper Smith", {
     color = Color(255, 0, 15, 255),
     model = {"models/player/gideon/coruscantguards/thire/cg_thire.mdl"},
     description = [[Clone shock troopers, also referred to as shocktroopers, stormtroopers or guardsmen, were the clone troopers of the Coruscant Guard, an elite force founded during the Clone Wars between the Galactic Republic and the Confederacy of Independent Systems.]],
