@@ -3598,7 +3598,7 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Marksman", {
     })
 TEAM_10TH = DarkRP.createJob("10th Helljumper Lead", {
     color = Color(34, 85, 85, 255),
-    model = { "models/player/gary/starwars/10/10th_mustang_2.mdl", "models/player/gary/starwars/10/10th_raz.mdl",
+    model = { "models/player/gary/starwars/10/10th_mustang_2.mdl", "models/player/gary/starwars/10/10th_raz.mdl", "models/player/gary/commission/starwars/brig_rambler.mdl",
 "models/player/gary/starwars/10/10th_zair.mdl"},
     description = [[Jumping feet first into hell, Now with Responsibility ]],
     weapons = {"CloneCardLvl4","realistic_hook", "m9k_knife", "zeus_thermaldet", "weapon_rpw_binoculars_scout", "cross_arms_swep", "cross_arms_infront_swep", "weapon_jew_stimkit", "zeus_flashbang", "rw_sw_dual_dc-10s", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "cc2018_dc17msg_red"},
