@@ -1956,7 +1956,7 @@ TEAM_SENATE = DarkRP.createJob("Senate Guard: Commander", {
     color = Color(0, 50, 168, 255),
     model = {"models/lazarusgaming/lgsccommander/lgsccommander.mdl"},
     description = [[The Senate Guard are an elite squad of troopers picked from Base Ops and Shock. They guard the most valuable targets.]],
-    weapons = {"rw_sw_dp24", "rw_sw_dual_dc17ext", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2", "rw_sw_stun_dc15s"},
+    weapons = {"weapon_doomshield", "arrest_stick", "unarrest_stick", "weapon_cuff_elastic", "rw_sw_westarm5", "rw_sw_dp24", "rw_sw_dual_dc17ext", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2", "rw_sw_stun_dc15s"},
     command = "csencmdr",
     max = 1,
     salary = 250,
@@ -1966,9 +1966,9 @@ TEAM_SENATE = DarkRP.createJob("Senate Guard: Commander", {
     candemote = false,
     category = "Senate Guard",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(350)
-        ply:SetHealth(350)
-        ply:SetArmor(150)
+        ply:SetMaxHealth(550)
+        ply:SetHealth(550)
+        ply:SetArmor(300)
     end
 })
 
@@ -1980,7 +1980,7 @@ TEAM_SENATE = DarkRP.createJob("Senate Guard: Commando", {
     color = Color(0, 50, 168, 255),
     model = {"models/lazarusgaming/lgsccommander/lgsccommander.mdl"},
     description = [[The Senate Guard are an elite squad of troopers picked from Base Ops and Shock. They guard the most valuable targets.]],
-    weapons = {"rw_sw_dp24", "rw_sw_dc17ext", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2", "rw_sw_stun_dc15s"},
+    weapons = {"weapon_doomshield", "arrest_stick", "unarrest_stick", "weapon_cuff_elastic", "rw_sw_westarm5", "rw_sw_dp24", "rw_sw_dc17ext", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2", "rw_sw_stun_dc15s"},
     command = "csencom",
     max = 4,
     salary = 250,
@@ -1990,9 +1990,89 @@ TEAM_SENATE = DarkRP.createJob("Senate Guard: Commando", {
     candemote = false,
     category = "Senate Guard",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(350)
-        ply:SetHealth(350)
-        ply:SetArmor(150)
+        ply:SetMaxHealth(550)
+        ply:SetHealth(550)
+        ply:SetArmor(300)
+    end
+})
+
+TEAM_SENATE = DarkRP.createJob("Senate Guard: Medic", {
+    color = Color(0, 50, 168, 255),
+    model = {"models/lazarusgaming/lgsccommander/lgsccommander.mdl"},
+    description = [[The Senate Guard are an elite squad of troopers picked from Base Ops and Shock. They guard the most valuable targets.]],
+    weapons = {"weapon_doomshield", "rw_sw_westarm5", "arrest_stick", "weapon_bactainjector", "weapon_bacta_grenade", "weapon_defibrillator", "weapon_cuff_elastic", "unarrest_stick", "rw_sw_dp24", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2", "rw_sw_stun_dc15s"},
+    command = "csenmed",
+    max = 4,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Senate Guard",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(550)
+        ply:SetHealth(550)
+        ply:SetArmor(300)
+    end
+})
+
+TEAM_SENATE = DarkRP.createJob("Senate Guard: Heavy", {
+    color = Color(0, 50, 168, 255),
+    model = {"models/lazarusgaming/lgsccommander/lgsccommander.mdl"},
+    description = [[The Senate Guard are an elite squad of troopers picked from Base Ops and Shock. They guard the most valuable targets.]],
+    weapons = {"weapon_doomshield", "rw_sw_westarm5", "arrest_stick", "weapon_cuff_elastic", "unarrest_stick", "rw_sw_z6", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2", "rw_sw_stun_dc15s"},
+    command = "csenhev",
+    max = 4,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Senate Guard",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(550)
+        ply:SetHealth(550)
+        ply:SetArmor(450)
+    end
+})
+
+TEAM_SENATE = DarkRP.createJob("Senate Guard: Engineer", {
+    color = Color(0, 50, 168, 255),
+    model = {"models/lazarusgaming/lgsccommander/lgsccommander.mdl"},
+    description = [[The Senate Guard are an elite squad of troopers picked from Base Ops and Shock. They guard the most valuable targets.]],
+    weapons = {"weapon_doomshield", "rw_sw_westarm5", "arrest_stick", "weapon_cuff_elastic", "unarrest_stick", "rw_sw_dp24", "alydus_fusioncutter", "seal6-c4", "weapon_jew_det", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2", "rw_sw_stun_dc15s"},
+    command = "cseneng",
+    max = 4,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Senate Guard",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(550)
+        ply:SetHealth(550)
+        ply:SetArmor(300)
+    end
+})
+
+TEAM_SENATE = DarkRP.createJob("Senate Guard: Captain", {
+    color = Color(0, 50, 168, 255),
+    model = {"models/lazarusgaming/lgsccommander/lgsccommander.mdl"},
+    description = [[The Senate Guard are an elite squad of troopers picked from Base Ops and Shock. They guard the most valuable targets.]],
+    weapons = {"weapon_doomshield", "rw_sw_westarm5", "arrest_stick", "weapon_cuff_elastic", "unarrest_stick", "rw_sw_dp24", "alydus_fortificationbuildertablet", "rw_sw_dual_dc17ext", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2", "rw_sw_stun_dc15s"},
+    command = "csencap",
+    max = 4,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Senate Guard",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(550)
+        ply:SetHealth(550)
+        ply:SetArmor(300)
     end
 })
 
@@ -2443,7 +2523,7 @@ TEAM_JEDI = DarkRP.createJob("Jedi Council: Ki Adi Mundi", {
 })
 TEAM_JEDI = DarkRP.createJob("Jedi Council: Obi Wan Kenobi", {
     color = Color(0, 0, 255, 255),
-    model = {"models/tfa/comm/gg/pm_sw_obiwan_alt.mdl"},
+    model = {"models/player/obiclone/obiclone.mdl"},
     description = [[The Jedi are the main Generals in the Clone Wars, fighting hard alongside the Clones. They are to be respected at all times.]],
     weapons = {"weapon_lightsaber_personal", "clone_card_c4", "dradio", "cross_arms_swep","cross_arms_infront_swep"},
     command = "Kenobi",
