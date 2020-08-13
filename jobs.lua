@@ -2563,7 +2563,7 @@ TEAM_JEDI = DarkRP.createJob("Jedi Council: Ki Adi Mundi", {
 })
 TEAM_JEDI = DarkRP.createJob("Jedi Council: Obi Wan Kenobi", {
     color = Color(0, 0, 255, 255),
-    model = {"models/player/obiclone/obiclone.mdl"},
+    model = {"models/player/generalkenobi/cgikenobi.mdl"},
     description = [[The Jedi are the main Generals in the Clone Wars, fighting hard alongside the Clones. They are to be respected at all times.]],
     weapons = {"weapon_lightsaber_personal", "clone_card_c4", "dradio", "cross_arms_swep","cross_arms_infront_swep"},
     command = "Kenobi",
