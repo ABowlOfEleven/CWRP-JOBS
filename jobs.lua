@@ -2368,6 +2368,46 @@ TEAM_COMMAND = DarkRP.createJob("Regimental Commander Flamingo", {
     end
 })
 
+TEAM_COMMAND = DarkRP.createJob("Regimental Commander Scythe", {
+    color = Color(255, 0, 0, 255),
+    model = {"models/player/suno/hero/specialist_general_2.mdl"},
+    description = [[Regimenta CMDR for Attack]],
+    weapons = {"dradio", "realistic_hook", "climb_swep2", "clone_card_c4", "rw_sw_z6", "rw_sw_westarm5", "zeus_thermaldet", "salute_swep", "cross_arms_swep"},
+    command = "rcomscythe",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "High Command",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(700)
+        ply:SetHealth(700)
+        ply:SetArmor(250)
+    end
+})
+
+TEAM_COMMAND = DarkRP.createJob("Regimental Commander Hades", {
+    color = Color(255, 0, 0, 255),
+    model = {"models/gonzo/malkiaxclonetroopers/mcintelligencecommander/mcintelligencecommander.mdl"},
+    description = [[Regimenta CMDR for Defense]],
+    weapons = {"dradio", "realistic_hook", "climb_swep2", "clone_card_c4", "rw_sw_dual_dc17ext", "rw_sw_westarm5", "weapon_doomshield", "salute_swep", "cross_arms_swep"},
+    command = "rcomscythe",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "High Command",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(700)
+        ply:SetHealth(700)
+        ply:SetArmor(250)
+    end
+})
+
 TEAM_COMMAND = DarkRP.createJob("Marshal Commander Metts", {
     color = Color(255, 0, 0, 255),
       model = {
