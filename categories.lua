@@ -86,7 +86,7 @@ DarkRP.createCategory{
     startExpanded = false,
     color = Color(241, 19, 247, 255),
     canSee = function(ply) return true end,
-    sortOrder = 5
+    sortOrder = 4
 }
 
 DarkRP.createCategory{
@@ -161,14 +161,6 @@ DarkRP.createCategory{
     sortOrder = 5
 }
 
-DarkRP.createCategory{
-    name = "Republic Intelligence",
-    categorises = "jobs",
-    startExpanded = false,
-    color = Color(0, 0, 0, 255),
-    canSee = function(ply) return true end,
-    sortOrder = 3
-}
 
 DarkRP.createCategory{
     name = "Republic Commandos",
@@ -250,7 +242,7 @@ DarkRP.createCategory{
     startExpanded = true,
     color = Color(34, 85, 85, 255),
     canSee = function(ply) return true end,
-    sortOrder = 4
+    sortOrder = 5
 }
 
 DarkRP.createCategory{
@@ -259,7 +251,7 @@ DarkRP.createCategory{
     startExpanded = true,
     color = Color(34, 85, 85, 255),
     canSee = function(ply) return true end,
-    sortOrder = 4
+    sortOrder = 5
 }
 
 --[[

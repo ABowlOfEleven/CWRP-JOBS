@@ -3285,87 +3285,15 @@ TEAM_DROID = DarkRP.createJob("Event Character: Droideka", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_OUTLAW = DarkRP.createJob("RC-7487 Outlaw", {
-    color = Color(194, 103, 0, 255),
-    model = {"models/gonzo/clonecommandoace/clonecommandoace.mdl"},
-    description = [[Lawout]],
-    weapons = {"cc2018_dc17ms", "cc2018_dc15p", "clone_card_c2", "dradio", "salute_swep", "realistic_hook", "weapon_camo", "dradio"},
-    command = "outlaw",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
+
+
+
 
 --[[
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
 
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_BARNES = DarkRP.createJob("Barnes", {
-    color = Color(138, 0, 0, 255),
-    model = {"models/player/suno/keelicompany/arc/arc.mdl"},
-    description = [[Barnes]],
-    weapons = {"rw_sw_westarm5", "rw_sw_z6", "realistic_hook", "weapon_doomshield", "zeus_thermaldet", "dradio", "climb_swep2", "clone_card_c1", "salute_swep"},
-    command = "cbarnes",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(100)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_KASPER = DarkRP.createJob("Kasper", {
-    color = Color(125, 0, 0, 255),
-    model = {"models/gonzo/dopler/dopler.mdl"},
-    description = [[One of Two members of the RC Headhunters Squad, both of which are skilled snipers. They both wear Mandalorian markings due to a respect for their training Sergeant Kal Skirata. 
-
-
-
-ARC = Advanced Republic Commandos]],
-    weapons = {"weapon_rpw_binoculars", "realistic_hook", "weapon_bactainjector", "cross_arms_swep", "salute_swep", "cc2018_dc17m", "cc2018_dc17ms", "climb_swep2", "clone_card_c4", "cross_arms_infront_swep", "dradio"},
-    command = "ckasper",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
 
 --[[
     Generated using: DarkRP | Job Generator
@@ -3764,121 +3692,7 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Knife", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_RI = DarkRP.createJob("Republic Intelligence Detatchment: Leader", {
-    color = Color(66, 36, 36, 255),
-    model = {"models/cgi_ultimate/shadow/commander/commander.mdl"},
-    description = [[Ground Leader of a Republic Intelligence Squad]],
-    weapons = {"tfa_e11d_extended", "rw_sw_dual_dc17", "clone_card_c3", "salute_swep", "climb_swep2", "dradio"},
-    command = "crilead",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Republic Intelligence",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Sniper", {
-    color = Color(66, 36, 36, 255),
-    model = {"models/cgi_ultimate/shadow/arf/arf.mdl"},
-    description = [[Sniper/Recon Soldier of a Republic Intelligence Squad]],
-    weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc15x", "rw_sw_dc17", "weapon_rpw_binoculars"},
-    command = "crisnip",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Republic Intelligence",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
-        ply:SetArmor(50)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Medic", {
-    color = Color(66, 36, 36, 255),
-    model = {"models/cgi_ultimate/shadow/medic/medic.mdl"},
-    description = [[Medic of a Republic Intelligence Squad]],
-    weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc17", "tfa_e11d_extended", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
-    command = "crimed",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Republic Intelligence",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
-        ply:SetArmor(50)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Pilot", {
-    color = Color(66, 36, 36, 255),
-    model = {"models/cgi_ultimate/shadow/pilot/pilot.mdl"},
-    description = [[Pilot of a Republic Intelligence Squad]],
-    weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc17", "tfa_e11d_extended"},
-    command = "cripilot",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Republic Intelligence",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
-        ply:SetArmor(50)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_RI = DarkRP.createJob("Republic Intelligence Detachment: Breacher", {
-    color = Color(66, 36, 36, 255),
-    model = {"models/cgi_ultimate/shadow/paratrooper/paratrooper.mdl"},
-    description = [[ Breacher of a Republic Intelligence Squad]],
-    weapons = {"clone_card_c1", "salute_swep", "climb_swep2", "dradio", "rw_sw_dc17", "tfa_e11d_extended", "seal6-c4", "zeus_thermaldet"},
-    command = "cribreach",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Republic Intelligence",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
-        ply:SetArmor(50)
-    end
-})
 	
 	--[[
     Generated using: DarkRP | Job Generator
@@ -4037,45 +3851,8 @@ TEAM_NER = DarkRP.createJob("Mandalorian Guardian", {
         ply:SetArmor(100)
     end
 })
-TEAM_GAVIN = DarkRP.createJob("Senate Guard: Gavin", {
-    color = Color(0, 50, 168, 255),
-    model = {"models/player/senatemedic2/senateguard.mdl"},
-    description = [[NOT A REAL SENATE GUARD.]],
-    weapons = {"rw_sw_dp24", "rw_sw_dc17ext", "clone_card_c1", "dradio", "salute_swep", "climb_swep2"},
-    command = "cgavin",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
 
-TEAM_JORDAN = DarkRP.createJob("Senate Guard: Jordan", {
-    color = Color(0, 50, 168, 255),
-    model = {"models/player/senatemedic2/senateguard.mdl"},
-    description = [[NOT A REAL SENATE GUARD.]],
-    weapons = {"rw_sw_dp24", "rw_sw_dc17ext", "clone_card_c1", "dradio", "salute_swep", "climb_swep2"},
-    command = "cjordan",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
+
 
 --[[
     Generated using: DarkRP | Job Generator
