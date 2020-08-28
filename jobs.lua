@@ -3640,11 +3640,10 @@ TEAM_444TH = DarkRP.createJob("Medical Elite Jazz", {
 
 TEAM_10TH = DarkRP.createJob("10th Helljumper Medic", {
     color = Color(34, 85, 85, 255),
-    model = {"models/player/gary/starwars/10/10th_grenadier.mdl", 
-        "models/player/gary/starwars/10/10th_zhidus.mdl", 
+    model = {"models/player/gary/starwars/10/10th_zhidus.mdl", 
         "models/player/gary/commission/starwars/simba_tactical.mdl"},
     description = [[Jumping feet first into hell and dragging everyone back alive.]],
-    weapons = {"clone_card_c3","weapon_bacta_grenade", "weapon_bactainjector", "realistic_hook", "dradio", "cross_arms_swep", "climb_swep2", "salute_swep", "weapon_defibrillator", "tfa_swch_dc17m_10th", "cc2018_dc15p_red","weapon_jew_stimkit"},
+    weapons = {"clone_card_c3","weapon_bacta_grenade", "weapon_bactainjector", "realistic_hook", "dradio", "cross_arms_swep", "climb_swep2", "salute_swep", "weapon_defibrillator", "tfa_swch_dc17m_10th", "10th_rw_sw_dc15sa","weapon_jew_stimkit"},
     command = "HellMed",
     max = 1,
     salary = 250,
@@ -3655,8 +3654,8 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Medic", {
     category = "10th Helljumper",
     medic = true,
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(150)
     end
     })
@@ -3666,7 +3665,7 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Anti Tank", {
     model = {"models/player/gary/starwars/10/10th_officer_2.mdl", 
         "models/player/gary/commission/starwars/omen_srt.mdl"},
     description = [[Jumping feet first into hell and blowing everything to bits]],
-    weapons = {"clone_card_c3","realistic_hook", "weapon_jew_det", "seal6-c4", "zeus_thermaldet", "cc2018_dc17maa", "cross_arms_swep", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "cc2018_dc15p_red"},
+    weapons = {"clone_card_c3","realistic_hook", "weapon_jew_det", "seal6-c4", "zeus_thermaldet", "cc2018_dc17maa", "cross_arms_swep", "dradio", "climb_swep2", "salute_swep", "10th_rw_sw_z6", "10th_rw_sw_dc15sa"},
     command = "HellTank",
     max = 1,
     salary = 250,
@@ -3688,7 +3687,7 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Marksman", {
         "models/player/gary/starwars/10/10th_marksman_2.mdl", 
         "models/player/gary/commission/starwars/omen_srt.mdl"},
     description = [[Jumping feet first into hell and finding a nice ledge far away from the fire to pop some heads from.]],
-    weapons = {"clone_card_c3", "realistic_hook", "weapon_rpw_binoculars_scout", "zeus_flashbang", "zeus_smokegranade", "cross_arms_swep", "cc2018_dc17ms_red", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "cc2018_dc15p_red"},
+    weapons = {"clone_card_c3", "realistic_hook", "weapon_rpw_binoculars_scout", "zeus_flashbang", "zeus_smokegranade", "cross_arms_swep", "cc2018_dc17ms_red", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "10th_rw_sw_dc15sa"},
     command = "HellMark",
     max = 1,
     salary = 250,
@@ -3699,8 +3698,8 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Marksman", {
     category = "10th Helljumper",
     medic = true,
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(150)
     end
     })
@@ -3709,7 +3708,7 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Lead", {
     model = { "models/player/gary/starwars/10/10th_mustang_2.mdl", "models/player/gary/starwars/10/10th_raz.mdl", "models/player/gary/commission/starwars/brig_rambler.mdl",
 "models/player/gary/starwars/10/10th_zair.mdl"},
     description = [[Jumping feet first into hell, Now with Responsibility ]],
-    weapons = {"CloneCardLvl4","realistic_hook", "m9k_knife", "zeus_thermaldet", "weapon_rpw_binoculars_scout", "cross_arms_swep", "cross_arms_infront_swep", "weapon_jew_stimkit", "zeus_flashbang", "rw_sw_dual_dc-10s", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "cc2018_dc17msg_red"},
+    weapons = {"CloneCardLvl4","realistic_hook", "m9k_knife", "zeus_thermaldet", "weapon_rpw_binoculars_scout", "cross_arms_swep", "cross_arms_infront_swep", "weapon_jew_stimkit", "zeus_flashbang", "10th_rw_sw_dual_dc17d", "dradio", "climb_swep2", "salute_swep", "tfa_swch_dc17m_10th", "cc2018_dc17msg_red"},
     command = "HellLead",
     max = 1,
     salary = 250,
@@ -3727,12 +3726,12 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Lead", {
         ply:SetRunSpeed(400)
     end
     })
-TEAM_10TH = DarkRP.createJob("10th Helljumper Knife", {
+TEAM_10TH = DarkRP.createJob("10th Helljumper Slicer", {
     color = Color(125, 0, 0, 255),
-    model = {"models/gonzo/darthmalice/darthmalice.mdl"},
-    description = [[Once a Jedi knight, Knife fell to temptation to learn skills only found on the dark side, when the council found out he was stripped of his rank and joined the republic army alongside the 10th]],
-    weapons = {"CloneCardLvl4", "pack_swswep_lordstarkiller1", "m9k_knife", "dradio", "climb_swep2", "forcechoke", "tfa_swch_dc17m_10th", "weapon_lightsaber_personal","cross_arms_infront_swep","cross_arms_swep"},
-    command = "10knife",
+    model = {"models/player/gary/starwars/10/10th_grenadier.mdl", "models/player/gary/commission/starwars/simba_tactical.mdl"},
+    description = [[The closest thing we get to an AI.]],
+    weapons = {"t3m4_empgrenade", "alydus_fusioncutter", "weapon_hexshield", "realistic_hook", "dradio", "climb_swep2", "tfa_swch_dc17m_10th", "10th_rw_sw_dc17d", "salute_swep", "cross_arms_infront_swep","cross_arms_swep"},
+    command = "HellSlice",
     max = 1,
     salary = 250,
     admin = 0,
@@ -3741,11 +3740,9 @@ TEAM_10TH = DarkRP.createJob("10th Helljumper Knife", {
     candemote = false,
     category = "10th Helljumper",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(5000)
-        ply:SetHealth(5000)
-        ply:SetArmor(1000)
-        ply:SetWalkSpeed(250)
-        ply:SetRunSpeed(400)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(150)
     end
 })
 	--[[
