@@ -2226,76 +2226,76 @@ TEAM_BASEOPS = DarkRP.createJob("Base Ops: Engineer", {
     category = "Base Operations"
 })
 
-TEAM_GONK = DarkRP.createJob("Daisy", {
+TEAM_GONK = DarkRP.createJob("Echidna", {
     color = Color(0, 50, 168, 255),
-    model = {"models/jazzmcfly/jka/younglings/jka_young_shak.mdl"},
-    description = [[A Prodigy to Mace, but a god to the Gonks.]],
-    weapons = {"weapon_lightsaber_personal", "zeus_flashbang", "stunstick", "alydus_fortificationbuildertablet", "weapon_rpw_binoculars_scout", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
-    command = "Daisy",
+    model = {"models/player/scifi_fang.mdl"},
+    description = [[Beware for the Mother Of Monsters!]],
+    weapons = {"rw_sw_westarm5", "zeus_thermaldet", "weapon_camo", "rw_sw_dual_dc17sw", "stunstick", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
+    command = "Echidna",
     max = 1,
     salary = 250,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Daisy's Gonk Squad",
+    category = "Code Furie",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
         ply:SetArmor(150)
     end
 })
-TEAM_GONK = DarkRP.createJob("Jade Vine", {
+TEAM_GONK = DarkRP.createJob("Stheno", {
     color = Color(0, 50, 168, 255),
-    model = {"models/gag/gaggonkdroid.mdl"},
-    description = [[Daisy made a portable Tank.]],
-    weapons = {"rw_sw_z6", "rw_sw_stun_dc15s", "weapon_hexshield", "alydus_fortificationbuildertablet", "pack_swswep_gonk", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
-    command = "Jade",
+    model = {"models/player/scifi_rochelle.mdl"},
+    description = [[Doubt is your end.]],
+    weapons = {"rw_sw_dc17s", "rw_sw_e5s_auto", "zeus_flashbang", "zeus_smokegranade", "weapon_camo", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
+    command = "Stheno",
     max = 1,
     salary = 250,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Daisy's Gonk Squad",
+    category = "Code Furie",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
         ply:SetArmor(150)
     end
 })
-TEAM_GONK = DarkRP.createJob("Middlemist", {
+TEAM_GONK = DarkRP.createJob("Euryale", {
     color = Color(0, 50, 168, 255),
-    model = {"models/gag/gaggonkdroid.mdl"},
-    description = [[Somehow Daisy upgraded this gonk to a Medic]],
-    weapons = {"rw_sw_dual_dc15s", "weapon_bactainjector", "weapon_defibrillator", "weapon_bacta_grenade", "pack_swswep_gonk", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
-    command = "middlemist",
+    model = {"models/player/scifi_hawke.mdl"},
+    description = [[Wrath can't compare to ME!]],
+    weapons = {"rw_sw_z6", "seal6-c4", "rw_ammo_distributor", "weapon_camo", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
+    command = "Euryale",
     max = 1,
     salary = 250,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Daisy's Gonk Squad",
+    category = "Code Furie",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
         ply:SetArmor(150)
     end
 })
-TEAM_GONK = DarkRP.createJob("Fire Lily", {
+TEAM_GONK = DarkRP.createJob("Medusa", {
     color = Color(0, 50, 168, 255),
-    model = {"models/gag/gaggonkdroid.mdl"},
-    description = [[Daisy somehow made Fire Gonk]],
-    weapons = {"flamethrower_variant", "zeus_flashbang", "rw_sw_dc15s", "pack_swswep_gonk", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
-    command = "firelily",
+    model = {"models/player/scifi_wraith.mdl"},
+    description = [[Look into my eyes...]],
+    weapons = {"seal6-c4", "rw_ammo_distributor", "rw_sw_westarm5", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2"},
+    command = "Medusa",
     max = 1,
     salary = 250,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Daisy's Gonk Squad",
+    category = "Code Furie",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
@@ -3089,6 +3089,66 @@ TEAM_ATLANTA = DarkRP.createJob("91st: Atlanta Lightning Squad Lead", {
         ply:SetArmor(150)
     end
 })
+TEAM_MONNO = DarkRP.createJob("501st Monno", {
+    color = Color(0, 255, 0, 255),
+    model = {"models/player/gary/commission/starwars/switchback.mdl"},
+    description = [[501st Assassin]],
+    weapons = {"tfa_kotor_br2", "tfa_sw_repsnip", "weapon_camo", "realistic_hook", "dradio", "clone_card_c2", "salute_swep", "climb_swep2"},
+    command = "Monno",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
+
+TEAM_EXOCREED = DarkRP.createJob("Dysdaimon Strategos Exocreed", {
+    color = Color(0, 128, 128, 255),
+    model = {"models/ishi/halo_rebirth/player/odst/male/odst_snippy.mdl"},
+    description = [[The Lead of an Elite Commando Company from The Unkown Territories who has sought fortune during the ongoing Separatist Crisis.]],
+    weapons = {"rw_sw_trd_dc17", "rw_sw_trd_dc15a", "weapon_hexshield", "alydus_fortificationbuildertablet", "realistic_hook", "dradio", "clone_card_c2", "salute_swep", "climb_swep2"},
+    command = "Exocreed",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
+
+TEAM_REPRCOM = DarkRP.createJob("Repurposed Commando", {
+    color = Color(0, 255, 0, 255),
+    model = {"models/bx_citadel/pm_droid_bx_citadel.mdl"},
+    description = [[A repurposed droid often sent on suicide mission, yet he always returns.]],
+    weapons = {"rw_sw_dual_e5bx", "tfa_wsp_3", "weapon_hexshield", "weapon_medkit", "realistic_hook", "dradio", "clone_card_c2", "salute_swep", "climb_swep2"},
+    command = "RepurposedComm",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(150)
+    end
+})
+
 --[[
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job

@@ -60,7 +60,7 @@ DarkRP.createCategory{
     sortOrder = 9
 }
 DarkRP.createCategory{
-    name = "Daisy's Gonk Squad",
+    name = "Code Furie",
     categorises = "jobs",
     startExpanded = false,
     color = Color(4, 1, 1, 255),
