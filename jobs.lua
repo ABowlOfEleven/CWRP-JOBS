@@ -2936,9 +2936,9 @@ TEAM_DRAGON = DarkRP.createJob("Dragon Company: Medic", {
 --]]
 TEAM_DRAGON = DarkRP.createJob("Dragon Company: Pilot", {
     color = Color(196, 0, 0, 255),
-    model = {"models/gonzo/specialistcorps/scairborne/scairborne.mdl"},
+    model = {"models/gonzo/specialistcorps/scflame/scflame.mdl"},
     description = [[Dragon Company Pilot.]],
-    weapons = {"flamethrower_basic", "clone_card_c2", "dradio", "cross_arms_infront_swep", "cross_arms_swep", "realistic_hook", "salute_swep", "climb_swep2"},
+    weapons = {"flamethrower_basic", "rw_sw_dc15s", "clone_card_c2", "dradio", "cross_arms_infront_swep", "cross_arms_swep", "realistic_hook", "salute_swep", "climb_swep2"},
     command = "cdragonpilot",
     max = 1,
     salary = 250,
@@ -3113,7 +3113,7 @@ TEAM_EXOCREED = DarkRP.createJob("Dysdaimon Strategos Exocreed", {
     color = Color(0, 128, 128, 255),
     model = {"models/ishi/halo_rebirth/player/odst/male/odst_snippy.mdl"},
     description = [[The Lead of an Elite Commando Company from The Unkown Territories who has sought fortune during the ongoing Separatist Crisis.]],
-    weapons = {"rw_sw_trd_dc17", "rw_sw_trd_dc15a", "weapon_hexshield", "alydus_fortificationbuildertablet", "realistic_hook", "dradio", "clone_card_c2", "salute_swep", "climb_swep2"},
+    weapons = {"tfa_ins2_hk416a5", "tfa_ins2_mpx", "weapon_hexshield", "alydus_fortificationbuildertablet", "realistic_hook", "dradio", "clone_card_c2", "salute_swep", "climb_swep2"},
     command = "Exocreed",
     max = 1,
     salary = 250,
@@ -3379,12 +3379,12 @@ TEAM_KASPER = DarkRP.createJob("Zeonix-Gon Jinn", {
     end
 })
 
-TEAM_DRAGOS= DarkRP.createJob("Dragos", {
+TEAM_DRAGOS= DarkRP.createJob("Advisor Rhino", {
     color = Color(1, 1, 1, 255),
-    model = {"models/player/seag/winter/winter.mdl"},
-    description = [[Born on a far off outerrim world Dragos was found by Master Quinlan vos and was taken to the jedi temple for training he went through many grueling tasks but eventually became a padawan and was placed in command of the 31st Dragon company lead by Commander Tyrant.]],
-    weapons = {"CloneCardLvl4", "dradio", "weapon_lightsaber_personal","cross_arms_infront_swep","cross_arms_swep"},
-    command = "cdragos",
+    model = {"models/player/suno/rhino/rhino.mdl"},
+    description = [[CA-5837 call sign "Rhino" was created as an advisor Rhino is a tough son of a bitch who does not take anyone's shit no matter what. He was mostly on Kamino as a drill instructor with the ARC commanders and later became an advisor after the first siege of Kamino he was then later assigned to where prism unit where he currently resides.]],
+    weapons = {"CloneCardLvl4", "dradio", "tfa_swch_dc17m_br", "tfa_kotor_repeaten_1", "realistic_hook", "seal6-c4", "weapon_rpw_binoculars_nvg", "cross_arms_infront_swep","cross_arms_swep"},
+    command = "Rhino",
     max = 1,
     salary = 250,
     admin = 0,
@@ -3393,9 +3393,9 @@ TEAM_DRAGOS= DarkRP.createJob("Dragos", {
     candemote = false,
     category = "Custom Classes",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(5000)
-        ply:SetHealth(5000)
-        ply:SetArmor(1000)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
     end
 })
 
