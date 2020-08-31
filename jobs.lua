@@ -2840,6 +2840,32 @@ TEAM_JEDI = DarkRP.createJob("Jedi: Temple Guard", {
         ply:SetArmor(450)
     end
 })
+TEAM_JEDI = DarkRP.createJob("Jedi: Council", {
+    color = Color(255, 0, 0, 255),
+    model = {
+        "models/player/zhidus/jedi/human/human.mdl",
+        "models/player/zhidus/jedi/nautolan/nautolan.mdl",
+        "models/player/zhidus/jedi/pantoran/pantoran.mdl",
+        "models/player/zhidus/jedi/togruta/togruta.mdl",
+        "models/player/zhidus/jedi/twilek/twilek.mdl",
+        "models/player/zhidus/jedi/zabrak/zabrak.mdl"
+    },
+    description = [[The Jedi are the main Generals in the Clone Wars, fighting hard alongside the Clones. They are to be respected at all times.]],
+    weapons = {"weapon_lightsaber_personal", "clone_card_c4", "dradio","cross_arms_infront_swep","cross_arms_swep"},
+    command = "Council",
+    max = 0,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Jedi",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
+        ply:SetArmor(550)
+    end
+})
 TEAM_JEDI = DarkRP.createJob("Jedi: Master", {
     color = Color(255, 0, 0, 255),
     model = {
@@ -2860,6 +2886,25 @@ TEAM_JEDI = DarkRP.createJob("Jedi: Master", {
     hasLicense = false,
     candemote = false,
     category = "Jedi",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
+        ply:SetArmor(550)
+    end
+})
+TEAM_DRAGOS = DarkRP.createJob("Jedi Dragos", {
+    color = Color(1, 1, 1, 255),
+    model = {"models/player/seag/winter/winter.mdl"},
+    description = [[Born on a far off outerrim world Dragos was found by Master Quinlan vos and was taken to the jedi temple for training he went through many grueling tasks but eventually became a padawan and was placed in command of the 31st Dragon company lead by Commander Tyrant.]],
+    weapons = {"CloneCardLvl4", "dradio", "weapon_lightsaber_personal","cross_arms_infront_swep","cross_arms_swep"},
+    command = "cdragos",
+    max = 0,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(5000)
         ply:SetHealth(5000)
