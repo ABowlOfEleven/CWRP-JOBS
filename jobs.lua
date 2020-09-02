@@ -118,9 +118,9 @@ TEAM_JEDI = DarkRP.createJob("Jedi Padawan: Ahsoka Tano", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_501 = DarkRP.createJob("501st Legion: Captain Rex", {
+TEAM_501 = DarkRP.createJob("501st Legion: Commander", {
     color = Color(0, 24, 255, 255),
-    model = {"models/player/gideon/501st/501st_rex/501st_rex.mdl"},
+    model = {"models/player/gideon/501st/501st_arc/501st_arc.mdl"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. ]],
     weapons = {"dradio", "rw_sw_westarm5", "rw_sw_dual_dc17", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c4", "cross_arms_swep"},
     command = "501cmdr",
@@ -1023,10 +1023,10 @@ TEAM_RC = DarkRP.createJob("Republic Commandos: Omega Tech", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_91 = DarkRP.createJob("91st Recon Corps: Neyo", {
+TEAM_91 = DarkRP.createJob("91st Recon Corps: Commander", {
     color = Color(150, 3, 3, 255),
-    model = {"models/player/synergy/cblake/91st/neyo/91stneyo.mdl"},
-    description = [[91st Commander Neyo]],
+    model = {"models/longshot/91st/91st_ponds.mdl"},
+    description = [[91st Commander Ponds]],
     weapons = {"climb_swep2", "dradio", "clone_card_c4", "weapon_rpw_binoculars_scout", "rw_sw_dc15le", "weapon_752_dc15sa", "salute_swep", "cross_arms_swep", "rw_sw_dc15x"},
     command = "91com",
     max = 1,
