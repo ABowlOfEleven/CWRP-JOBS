@@ -130,10 +130,10 @@ DarkRP.createCategory{
     https://csite.io/tools/gmod-darkrp-category
 --]]
 DarkRP.createCategory{
-    name = "Doom Unit",
+    name = "Galactic Marines",
     categorises = "jobs",
     startExpanded = false,
-    color = Color(255, 0, 0, 255),
+    color = Color(191, 0, 95, 255),
     canSee = function(ply) return true end,
     sortOrder = 6
 }

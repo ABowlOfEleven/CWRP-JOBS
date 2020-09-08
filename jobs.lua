@@ -1762,19 +1762,19 @@ TEAM_MUUNILINST = DarkRP.createJob("Muunilinst 10: Squad Pilot", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_DOOM = DarkRP.createJob("Doom Unit: Doom", {
-    color = Color(0, 145, 4, 255),
-    model = {"models/doom/ln/doom/doom.mdl"},
-    description = [[Doom Unit was a defensive unit led by  Jedi Generals Tiplar, and Tiplee, as well as clone commander Doom. Doom was seen on the front lines with their shield up to protect the troops behind.]],
-    weapons = {"clone_card_c4", "salute_swep", "climb_swep2", "weapon_doomshield", "rw_sw_dual_dc17", "rw_sw_dc15a", "dradio", "cross_arms_swep"},
-    command = "ducmdr",
+TEAM_21ST = DarkRP.createJob("Galactic Marines: Bacara", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/player/gideon/bacara/gm_bacara.mdl"},
+    description = [[The 21st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
+    weapons = {"clone_card_c4", "salute_swep", "climb_swep2", "rw_sw_dual_dc17ext","realistic_hook","tfa_t21_extended", "dradio", "cross_arms_swep"},
+    command = "bacara",
     max = 1,
-    salary = 300,
+    salary = 300000000,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-	category = "Doom Unit",
+	category = "Galactic Marines",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
@@ -1788,19 +1788,19 @@ TEAM_DOOM = DarkRP.createJob("Doom Unit: Doom", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_DOOM = DarkRP.createJob("Doom Unit: Trooper", {
-    color = Color(0, 145, 4, 255),
-    model = {"models/doom/ln/trooper/trooper.mdl"},
-    description = [[Doom Unit was a defensive unit led by  Jedi Generals Tiplar, and Tiplee, as well as clone commander Doom. Doom was seen on the front lines with their shield up to protect the troops behind.]],
-    weapons = {"dradio", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2", "weapon_doomshield"},
-    command = "dutrp",
+TEAM_21ST = DarkRP.createJob("Galactic Marines: Trooper", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/player/gideon/galacticmarine/trooper/gm_trooper.mdl"},
+    description = [[The 2"1st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
+        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2"},
+    command = "gmtrooper",
     max = 0,
     salary = 150,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-	category = "Doom Unit",
+	category = "Galactic Marines",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
@@ -1812,43 +1812,19 @@ TEAM_DOOM = DarkRP.createJob("Doom Unit: Trooper", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_DOOM = DarkRP.createJob("Doom Unit: Officer", {
-    color = Color(0, 145, 4, 255),
-    model = {"models/doom/ln/xo/xo.mdl"},
-    description = [[Doom Unit was a defensive unit led by Jedi Generals Tiplar, and Tiplee, as well as clone commander Doom. Doom was seen on the front lines with their shield up to protect the troops behind.]],
-    weapons = {"clone_card_c3", "salute_swep", "climb_swep2", "weapon_doomshield", "rw_sw_dual_dc17", "rw_sw_dc15a"},
-    command = "duoff",
-    max = 5,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-	category = "Doom Unit",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_DOOM = DarkRP.createJob("Doom Unit: Medic", {
-    color = Color(0, 145, 4, 255),
-    model = {"models/doom/ln/medic/medic.mdl"},
-    description = [[Doom Unit was a defensive unit led by Jedi Generals Tiplar, and Tiplee, as well as clone commander Doom. Doom was seen on the front lines with their shield up to protect the troops behind.]],
-    weapons = {"dradio", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2", "weapon_doomshield", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
-    command = "dumed",
+TEAM_21ST = DarkRP.createJob("Galactic Marines: Officer", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/player/gideon/galacticmarine/white/gm_white.mdl"},
+    description = [[The 2"1st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
+        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "alydus_fortificationbuildertablet","rw_sw_dual_dc17ext","clone_card_c1", "salute_swep", "climb_swep2"},
+    command = "gmofficer",
     max = 0,
     salary = 150,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-	category = "Doom Unit",
+    category = "Galactic Marines",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
@@ -1860,43 +1836,23 @@ TEAM_DOOM = DarkRP.createJob("Doom Unit: Medic", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_DOOM = DarkRP.createJob("Doom Unit: Explosives Expert", {
-    color = Color(17, 34, 85, 255),
-    model = {"models/doom/ln/enginner/engineer.mdl"},
-    description = [[Doom Unit was a defensive unit led by  Jedi Generals Tiplar, and Tiplee, as well as clone commander Doom. Doom was seen on the front lines with their shield up to protect the troops behind.]],
-    weapons = {"dradio", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2", "seal6-c4", "tfa_swch_clonelauncher_3"},
-    command = "duexp",
-    max = 4,
-    salary = 200,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Doom Unit",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
-        ply:SetArmor(150)
-    end
-})
-
-TEAM_DOOM = DarkRP.createJob("Doom Unit: Heavy", {
-    color = Color(19, 119, 17, 255),
-    model = {"models/doom/ln/heavy/heavy.mdl"},
-    description = [[Doom Unit was a defensive unit led by Jedi Generals Tiplar, and Tiplee, as well as clone commander Doom. Doom was seen on the front lines with their shield up to protect the troops behind.]],
-    weapons = {"clone_card_c1", "dradio", "salute_swep", "climb_swep2", "weapon_doomshield", "rw_sw_z6", "zeus_thermaldet", "rw_sw_dc17", "rw_ammo_distributor"},
-    command = "duhev",
+TEAM_21ST = DarkRP.createJob("Galactic Marines: Medic", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/player/gideon/galacticmarine/medic/gm_medic.mdl"},
+    description = [[The 2"1st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
+        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2","weapon_defibrillator","weapon_bactainjector","weapon_bactagrenade"},
+    command = "gmmedic",
     max = 0,
     salary = 150,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Doom Unit",
+    category = "Galactic Marines",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
-        ply:SetArmor(100)
+        ply:SetArmor(50)
     end
 })
 
@@ -1904,47 +1860,43 @@ TEAM_DOOM = DarkRP.createJob("Doom Unit: Heavy", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_DOOM = DarkRP.createJob("Doom Unit: Engineer", {
-    color = Color(19, 119, 17, 255),
-    model = {"models/doom/ln/enginner/engineer.mdl"},
-    description = [[Doom Unit was a defensive unit led by Jedi Generals Tiplar, and Tiplee, as well as clone commander Doom. Doom was seen on the front lines with their shield up to protect the troops behind.]],
-    weapons = {"clone_card_c1", "dradio", "salute_swep", "climb_swep2", "weapon_doomshield", "rw_sw_dc17", "rw_sw_dc15a", "alydus_fusioncutter"},
-    command = "dueng",
+TEAM_21ST = DarkRP.createJob("Galactic Marines: Flame Trooper", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/player/gideon/galacticmarine/assaultspecialist/gm_assaultspecialist.mdl"},
+    description = [[The 2"1st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
+        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2","flamethrower_variant","alydus_fortificationbuildertablet"},
+    command = "gmflame",
     max = 0,
     salary = 150,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Doom Unit",
+    category = "Galactic Marines",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
-        ply:SetArmor(100)
+        ply:SetArmor(50)
     end
 })
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_DOOM = DarkRP.createJob("Doom Unit: ARC", {
-    color = Color(19, 119, 17, 255),
-    model = {"models/doom/ln/arc/arc.mdl"},
-    description = [[Doom Unit was a defensive unit led by Jedi Generals Tiplar, and Tiplee, as well as clone commander Doom. Doom was seen on the front lines with their shield up to protect the troops behind.]],
-    weapons = {"weapon_doomshield", "dradio", "rw_sw_westarm5", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c2"},
-    command = "duarc",
-    max = 5,
+TEAM_21ST = DarkRP.createJob("Galactic Marines: Breacher", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/player/gideon/galacticmarine/elitesupport/gm_elitesupport.mdl"},
+    description = [[The 2"1st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
+        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2","rw_sw_dp23","realistic_hook"},
+    command = "gmbreacher",
+    max = 0,
     salary = 150,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Doom Unit",
+    category = "Galactic Marines",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(175)
-        ply:SetHealth(175)
-        ply:SetArmor(125)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(50)
     end
 })
 
