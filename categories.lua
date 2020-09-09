@@ -34,14 +34,6 @@ DarkRP.createCategory{
     sortOrder = 1
 }
 
-DarkRP.createCategory{
-    name = "Theous",
-    categorises = "jobs",
-    startExpanded = false,
-    color = Color(153, 153, 153, 255),
-    canSee = function(ply) return true end,
-    sortOrder = 7
-}
 
 DarkRP.createCategory{
     name = "10th Helljumper",
@@ -76,15 +68,6 @@ DarkRP.createCategory{
     categorises = "jobs",
     startExpanded = false,
     color = Color(13, 7, 224, 255),
-    canSee = function(ply) return true end,
-    sortOrder = 4
-}
-
-DarkRP.createCategory{
-    name = "501st Blue Squadron",
-    categorises = "jobs",
-    startExpanded = false,
-    color = Color(241, 19, 247, 255),
     canSee = function(ply) return true end,
     sortOrder = 4
 }
@@ -171,15 +154,6 @@ DarkRP.createCategory{
     sortOrder = 9
 }
 
-DarkRP.createCategory{
-    name = "Dragon Company",
-    categorises = "jobs",
-    startExpanded = false,
-    color = Color(19, 145, 0, 255),
-    canSee = function(ply) return true end,
-    sortOrder = 9
-}
-
 
 DarkRP.createCategory{
     name = "Jedi",
@@ -190,14 +164,6 @@ DarkRP.createCategory{
     sortOrder = 9
 }
 
-DarkRP.createCategory{
-    name = "Doom Unit",
-    categorises = "jobs",
-    startExpanded = false,
-    color = Color(0, 145, 4, 255),
-    canSee = function(ply) return true end,
-    sortOrder = 8
-}
 
 DarkRP.createCategory{
     name = "Shock Troopers",
@@ -227,14 +193,6 @@ DarkRP.createCategory{
     sortOrder = 9
 }
 
-DarkRP.createCategory{
-    name = "Muunilinst 10",
-    categorises = "jobs",
-    startExpanded = false,
-    color = Color(0, 72, 156, 255),
-    canSee = function(ply) return true end,
-    sortOrder = 9
-}
 
 DarkRP.createCategory{
     name = "444th Elite Medic Squad",
@@ -245,14 +203,6 @@ DarkRP.createCategory{
     sortOrder = 5
 }
 
-DarkRP.createCategory{
-    name = "444th Elite Medic Squad",
-    categorises = "jobs",
-    startExpanded = true,
-    color = Color(34, 85, 85, 255),
-    canSee = function(ply) return true end,
-    sortOrder = 5
-}
 
 --[[
     Generated using: DarkRP | Category Generator
@@ -300,15 +250,6 @@ DarkRP.createCategory{
     Generated using: DarkRP | Category Generator
     https://csite.io/tools/gmod-darkrp-category
 --]]
-DarkRP.createCategory{
-    name = "Afterlife Squad",
-    categorises = "jobs",
-    startExpanded = false,
-    color = Color(255, 164, 52, 255),
-    canSee = function(ply) return true end,
-    sortOrder = 11
-}
-
 DarkRP.createCategory{
     name = "Staff",
     categorises = "jobs",

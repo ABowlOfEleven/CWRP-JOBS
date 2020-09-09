@@ -398,150 +398,7 @@ TEAM_501 = DarkRP.createJob("501st Legion: Hardcase", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_501 = DarkRP.createJob("501st Blue Squadron: Leader", {
-    color = Color(0, 57, 255, 255),
-    model = {"models/player/gideon/501st/501st_pilot/501st_pilot.mdl"},
-    description = [[Blue squadron is an elite squad of 501st pilots.]],
-    weapons = {"rw_sw_dual_dc17ext", "alydus_fusioncutter", "dradio", "clone_card_c4", "salute_swep", "climb_swep2", "salute_swep", "rw_sw_z6", "weapon_bactainjector", "weapon_bactanade", "weapon_defibrillator"},
-    command = "cbluelead",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "501st Blue Squadron",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_501 = DarkRP.createJob("501st Blue Squadron: Blue One", {
-    color = Color(0, 57, 255, 255),
-    model = {"models/player/gideon/501st/501st_pilot/501st_pilot.mdl"},
-    description = [[Blue squadron is an elite squad of 501st pilots.]],
-    weapons = {"alydus_fusioncutter", "dradio", "clone_card_c3", "salute_swep", "climb_swep2", "salute_swep", "rw_sw_dc17ext"},
-    command = "cblueone",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "501st Blue Squadron",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_501 = DarkRP.createJob("501st Blue Squadron: Blue Two", {
-    color = Color(0, 57, 255, 255),
-    model = {"models/player/gideon/501st/501st_pilot/501st_pilot.mdl"},
-    description = [[Blue squadron is an elite squad of 501st pilots.]],
-    weapons = {"alydus_fusioncutter", "dradio", "clone_card_c3", "salute_swep", "climb_swep2", "salute_swep", "rw_sw_dc17ext"},
-    command = "cbluetwo",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "501st Blue Squadron",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_501 = DarkRP.createJob("501st Blue Squadron: Blue Three", {
-    color = Color(0, 57, 255, 255),
-    model = {"models/player/gideon/501st/501st_pilot/501st_pilot.mdl"},
-    description = [[Blue squadron is an elite squad of 501st pilots.]],
-    weapons = {"alydus_fusioncutter", "dradio", "clone_card_c3", "salute_swep", "climb_swep2", "salute_swep", "rw_sw_dc17ext"},
-    command = "cbluethree",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "501st Blue Squadron",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_501 = DarkRP.createJob("501st Blue Squadron: Blue Four", {
-    color = Color(0, 57, 255, 255),
-    model = {"models/player/gideon/501st/501st_pilot/501st_pilot.mdl"},
-    description = [[Blue squadron is an elite squad of 501st pilots.]],
-    weapons = {"alydus_fusioncutter", "dradio", "clone_card_c3", "salute_swep", "climb_swep2", "salute_swep", "rw_sw_dc17ext", "weapon_bactainjector", "weapon_bactanade", "weapon_defibrillator"},
-    command = "cbluefour",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "501st Blue Squadron",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_501 = DarkRP.createJob("501st Blue Squadron: Blue Five", {
-    color = Color(0, 57, 255, 255),
-    model = {"models/player/gideon/501st/501st_pilot/501st_pilot.mdl"},
-    description = [[Blue squadron is an elite squad of 501st pilots.]],
-    weapons = {"alydus_fusioncutter", "dradio", "clone_card_c3", "salute_swep", "climb_swep2", "salute_swep", "rw_sw_dc17ext"},
-    command = "cbluefive",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "501st Blue Squadron",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_5TH = DarkRP.createJob("Shock: Commander", {
     color = Color(255, 0, 15, 255),
     model = {"models/sample/sector/specialized/specialized.mdl"},
@@ -1227,22 +1084,6 @@ TEAM_91 = DarkRP.createJob("91st Recon Corps: Stak", {
     end
 })
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 
 TEAM_104 = DarkRP.createJob("104th Mechanical Battalion: Commander Wolffe", {
     color = Color(133, 133, 133, 255),
@@ -1614,154 +1455,6 @@ TEAM_MANDO = DarkRP.createJob("327th Star Corps: Trooper", {
     end
 })
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_MUUNILINST = DarkRP.createJob("Muunilinst 10: Jerry", {
-    color = Color(0, 125, 153, 255),
-    model = {"models/doublehexgaming/dhgarcfordo/dhgarcfordo.mdl"},
-    description = [[Muunilinst 10 Squad Leader]],
-    weapons = {"dradio", "salute_swep", "climb_swep2", "salute_swep", "clone_card_c3", "zeus_thermaldet", "realistic_hook", "weapon_rpw_binoculars", "rw_sw_dual_dc17s", "rw_sw_dc15a"},
-    command = "cjerry",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Muunilinst 10",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_MUUNILINST = DarkRP.createJob("Muunilinst 10: Squad Rocketeer", {
-    color = Color(0, 125, 153, 255),
-    model = {"models/player/rancorsergeantphase2/rancorsergeantphase2.mdl"},
-    description = [[Muunilinst 10 Squad Rocketeer]],
-    weapons = {"dradio", "salute_swep", "climb_swep2", "salute_swep", "clone_card_c2", "zeus_thermaldet", "realistic_hook", "weapon_rpw_binoculars", "rw_sw_dc15a", "tfa_swch_clonelauncher_3"},
-    command = "cmunrock",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Muunilinst 10",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_MUUNILINST = DarkRP.createJob("Muunilinst 10: Squad lieutenant", {
-    color = Color(0, 125, 153, 255),
-    model = {"models/player/rancortrooperphase2/rancortrooperphase2.mdl"},
-    description = [[Muunilinst 10 Squad lieutenant]],
-    weapons = {"dradio", "salute_swep", "climb_swep2", "salute_swep", "clone_card_c2", "zeus_thermaldet", "realistic_hook", "weapon_rpw_binoculars", "rw_sw_z6", "rw_sw_dc17"},
-    command = "cmunlt",
-    max = 2,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Muunilinst 10",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_MUUNILINST = DarkRP.createJob("Muunilinst 10: Squad Trooper", {
-    color = Color(0, 125, 153, 255),
-    model = {"models/lazarusgaming/lgarctrooper/lgarctrooper.mdl"},
-    description = [[Muunilinst 10 Squad Trooper]],
-    weapons = {"dradio", "salute_swep", "climb_swep2", "salute_swep", "clone_card_c2", "zeus_thermaldet", "realistic_hook", "weapon_rpw_binoculars", "rw_sw_dc17", "rw_sw_dc15a"},
-    command = "cmuntrp",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Muunilinst 10",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_MUUNILINST = DarkRP.createJob("Muunilinst 10: Squad Medic", {
-    color = Color(0, 125, 153, 255),
-    model = {"models/player/rancormedicphase2/rancormedicphase2.mdl"},
-    description = [[Muunilinst 10 Squad Medic]],
-    weapons = {"dradio", "salute_swep", "climb_swep2", "salute_swep", "clone_card_c2", "zeus_thermaldet", "realistic_hook", "rw_sw_dc17", "rw_sw_dc15a", "weapon_bactainjector"},
-    command = "cmunmed",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Muunilinst 10",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_MUUNILINST = DarkRP.createJob("Muunilinst 10: Squad Pilot", {
-    color = Color(0, 125, 153, 255),
-    model = {"models/helios/ufc/pilot/arc.mdl"},
-    description = [[Muunilinst 10 Squad Pilot]],
-    weapons = {"dradio", "salute_swep", "climb_swep2", "salute_swep", "clone_card_c2", "realistic_hook", "alydus_fusioncutter", "t3m4_empgrenade", "rw_sw_dc17ext"},
-    command = "cmunpil",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Muunilinst 10",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_21ST = DarkRP.createJob("Galactic Marines: Bacara", {
     color = Color(191, 0, 95, 255),
     model = {"models/player/gideon/bacara/gm_bacara.mdl"},
@@ -2255,51 +1948,6 @@ TEAM_GONK = DarkRP.createJob("Medusa", {
     end
 })
 
-Team_Theous = DarkRP.createJob("Zeus", {
-    color = Color(219, 235, 65, 255),
-    model = {"models/player/gideon/bcr/gideon/bcr_gideon.mdl"},
-    description = [[Zeus is the leader of Theous squad.]],
-    weapons = {"cc2018_dc17m_red", "clone_card_c4", "dradio", "comlink_swep", "cross_arms_swep", "salute_swep", "weapon_cuff_elastic", "weapon_camo", "weapon_hexshield_local", "zeus_flashbang", "zeus_smokegranade", "zeus_thermaldet", "rw_sw_dual_dc17s", "rw_sw_dc19", "realistic_hook",  "tfa_e11d_extended"},
-    command = "cthezeus",
-    max = 1,
-    salary = 500,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Theous",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(800)
-        ply:SetHealth(800)
-        ply:SetArmor(255)
-    end
-})
-
-Team_Theous = DarkRP.createJob("Apollo", {
-    color = Color(219, 235, 65, 255),
-    model = {"models/player/gideon/bcr/gideon/bcr_gideon.mdl"},
-    description = [[Apollo is the sniper of Theous squad.]],
-    weapons = {"cc2018_dc17m_red", "clone_card_c4", "dradio", "comlink_swep", "cross_arms_swep", "salute_swep", "weapon_cuff_elastic", "weapon_camo", "weapon_hexshield_local", "zeus_flashbang", "zeus_smokegranade", "zeus_thermaldet", "rw_sw_dual_dc17s", "rw_sw_dc19", "realistic_hook", "cc2018_dc17ms_red", "weapon_rpw_binoculars_scout",  "tfa_e11d_extended"},
-    command = "ctheapollo",
-    max = 1,
-    salary = 500,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Theous",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(700)
-        ply:SetHealth(700)
-        ply:SetArmor(200)
-    end
-})
-
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_COMMAND = DarkRP.createJob("Regimental Commander Flamingo", {
     color = Color(255, 0, 0, 255),
     model = {"models/player/dolan/dolan_specreg/dolan_specreg.mdl"},
@@ -2844,25 +2492,6 @@ TEAM_JEDI = DarkRP.createJob("Jedi: Master", {
         ply:SetArmor(550)
     end
 })
-TEAM_DRAGOS = DarkRP.createJob("Jedi Dragos", {
-    color = Color(1, 1, 1, 255),
-    model = {"models/player/seag/winter/winter.mdl"},
-    description = [[Born on a far off outerrim world Dragos was found by Master Quinlan vos and was taken to the jedi temple for training he went through many grueling tasks but eventually became a padawan and was placed in command of the 31st Dragon company lead by Commander Tyrant.]],
-    weapons = {"CloneCardLvl4", "dradio", "weapon_lightsaber_personal","cross_arms_infront_swep","cross_arms_swep"},
-    command = "cdragos",
-    max = 0,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(5000)
-        ply:SetHealth(5000)
-        ply:SetArmor(550)
-    end
-})
 
 TEAM_STAFF = DarkRP.createJob("Prism Gaming: Staff", {
     color = Color(255, 182, 70, 255),
@@ -2883,145 +2512,6 @@ TEAM_STAFF = DarkRP.createJob("Prism Gaming: Staff", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_DRAGON = DarkRP.createJob("Dragon Company: Elite", {
-    color = Color(196, 0, 0, 255),
-    model = {"models/gonzo/specialistcorps/scelite/scelite.mdl"},
-    description = [[Dragon Company Elite.]],
-    weapons = {"flamethrower_basic", "rw_sw_dc15a", "clone_card_c2", "dradio", "cross_arms_infront_swep", "cross_arms_swep", "realistic_hook", "salute_swep", "climb_swep2"},
-    command = "cdragon",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Dragon Company",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(250)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_DRAGON = DarkRP.createJob("Dragon Company: Medic", {
-    color = Color(196, 0, 0, 255),
-    model = {"models/gonzo/specialistcorps/scairborne/scairborne.mdl"},
-    description = [[Dragon Company Medic.]],
-    weapons = {"flamethrower_basic", "clone_card_c2", "dradio", "cross_arms_infront_swep", "realistic_hook", "cross_arms_swep", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_defibrillator", "rw_sw_dc15s", "salute_swep", "climb_swep2"},
-    command = "cdragonmed",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Dragon Company",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(250)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_DRAGON = DarkRP.createJob("Dragon Company: Pilot", {
-    color = Color(196, 0, 0, 255),
-    model = {"models/gonzo/specialistcorps/scflame/scflame.mdl"},
-    description = [[Dragon Company Pilot.]],
-    weapons = {"flamethrower_basic", "rw_sw_dc15s", "clone_card_c2", "dradio", "cross_arms_infront_swep", "cross_arms_swep", "realistic_hook", "salute_swep", "climb_swep2"},
-    command = "cdragonpilot",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Dragon Company",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(250)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_DRAGON = DarkRP.createJob("Dragon Company: Blaze", {
-    color = Color(196, 0, 0, 255),
-    model = {"models/gonzo/specialistcorps/scblaze/scblaze.mdl"},
-    description = [[Dragon Company Blaze.]],
-    weapons = {"flamethrower_basic", "clone_card_c2", "dradio", "cross_arms_infront_swep", "cross_arms_swep", "realistic_hook", "rw_sw_z6", "salute_swep", "climb_swep2"},
-    command = "cdragonbla",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Dragon Company",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(250)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_DRAGON = DarkRP.createJob("Dragon Company: CQC", {
-    color = Color(196, 0, 0, 255),
-    model = {"models/gonzo/specialistcorps/sccombat/sccombat.mdl"},
-    description = [[Dragon Company Close Quarters Combat Trooper.]],
-    weapons = {"flamethrower_basic", "clone_card_c2", "dradio", "cross_arms_infront_swep", "cross_arms_swep", "realistic_hook", "rw_sw_dp23", "salute_swep", "climb_swep2"},
-    command = "cdragoncqc",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Dragon Company",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(250)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_DRAGON = DarkRP.createJob("Dragon Company: Assassin", {
-    color = Color(196, 0, 0, 255),
-    model = {"models/gonzo/specialistcorps/scassassin/scassassin.mdl"},
-    description = [[Dragon Company Assassin.]],
-    weapons = {"flamethrower_basic", "clone_card_c2", "dradio", "cross_arms_infront_swep", "cross_arms_swep", "realistic_hook", "rw_sw_valken38x", "salute_swep", "climb_swep2", "weapon_camo"},
-    command = "cdragonass",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Dragon Company",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(250)
-    end
-})
 
 --[[
     Generated using: DarkRP | Job Generator
@@ -3150,25 +2640,6 @@ TEAM_REPRCOM = DarkRP.createJob("Repurposed Commando", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_REDTAIL = DarkRP.createJob("73rd Shadow Company: Redtail", {
-    color = Color(196, 0, 0, 255),
-    model = {"models/player/cblake/synergy/spec_ops/arc/arc.mdl"},
-    description = [[Fun fact: Redtail backwards is liatdeR.]],
-    weapons = {"rw_sw_dc19", "rw_sw_dc19le", "dradio", "clone_card_c2", "salute_swep", "climb_swep2"},
-    command = "cred",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(250)
-    end
-})
 
 TEAM_BOBBY = DarkRP.createJob("Wookie", {
     color = Color(196, 0, 0, 255),
@@ -3189,10 +2660,7 @@ TEAM_BOBBY = DarkRP.createJob("Wookie", {
         ply:SetArmor(250)
     end
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
+
 
 --[[
     Generated using: DarkRP | Job Generator
@@ -3338,24 +2806,6 @@ TEAM_DROID = DarkRP.createJob("Event Character: Droideka", {
     end
 })
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-
-
-
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_KASPER = DarkRP.createJob("Zeonix-Gon Jinn", {
     color = Color(125, 0, 0, 255),
     model = {"models/tessa/daggen/daggenjedi.mdl"},
@@ -3373,26 +2823,6 @@ TEAM_KASPER = DarkRP.createJob("Zeonix-Gon Jinn", {
         ply:SetMaxHealth(5000)
         ply:SetHealth(5000)
         ply:SetArmor(1000)
-    end
-})
-
-TEAM_DRAGOS= DarkRP.createJob("Advisor Rhino", {
-    color = Color(1, 1, 1, 255),
-    model = {"models/player/suno/rhino/rhino.mdl"},
-    description = [[CA-5837 call sign "Rhino" was created as an advisor Rhino is a tough son of a bitch who does not take anyone's shit no matter what. He was mostly on Kamino as a drill instructor with the ARC commanders and later became an advisor after the first siege of Kamino he was then later assigned to where prism unit where he currently resides.]],
-    weapons = {"CloneCardLvl4", "dradio", "tfa_swch_dc17m_br", "tfa_kotor_repeaten_1", "realistic_hook", "seal6-c4", "weapon_rpw_binoculars_nvg", "cross_arms_infront_swep","cross_arms_swep"},
-    command = "Rhino",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
     end
 })
 
