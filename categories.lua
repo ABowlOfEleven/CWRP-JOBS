@@ -193,6 +193,14 @@ DarkRP.createCategory{
     sortOrder = 9
 }
 
+DarkRP.createCategory{
+    name = "Rancor Battalion",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(238, 210, 2, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 10
+}
 
 DarkRP.createCategory{
     name = "444th Elite Medic Squad",

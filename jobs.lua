@@ -1593,6 +1593,122 @@ TEAM_21ST = DarkRP.createJob("Galactic Marines: Breacher", {
     end
 })
 
+TEAM_RANCOR = DarkRP.createJob("Rancor: Commander", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/doublehexgaming/dhgarcrancorblitz/dhgarcrancorblitz.mdl","models/doublehexgaming/dhgarcrancorcolt/dhgarcrancorcolt.mdl","models/doublehexgaming/dhgarcrancorhavoc/dhgarcrancorhavoc.mdl"},
+    description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
+        weapons = {"dradio", "rw_sw_dp23", "rw_sw_dual_dc17ext", "clone_card_c4", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "climb_swep2","rw_sw_dc15a","realistic_hook"},
+    command = "RanCMDR",
+    max = 0,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Rancor Battalion",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
+
+TEAM_RANCOR = DarkRP.createJob("Rancor: Medic", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/kylejwest/synergyroleplay/rancor/sr3drancorarcmedic/sr3drancorarcmedic.mdl"},
+    description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
+        weapons = {"dradio", "rw_sw_dc17ext", "rw_sw_dc15s", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","weapon_defibrillator","weapon_bactainjector","weapon_bactagrenade", "realistic_hook"},
+    command = "RanMED",
+    max = 0,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Rancor Battalion",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(50)
+    end
+})
+
+TEAM_RANCOR = DarkRP.createJob("Rancor: Heavy Gunner", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/kylejwest/synergyroleplay/rancor/sr3drancorarcheavytrooper/sr3drancorarcheavytrooper.mdl"},
+    description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
+        weapons = {"dradio", "rw_sw_dc17ext", "10th_rw_sw_z6", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","rw_ammo_distributor", "realistic_hook"},
+    command = "RanHEV",
+    max = 0,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Rancor Battalion",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
+})
+TEAM_RANCOR = DarkRP.createJob("Rancor: Demolitions", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/kylejwest/synergyroleplay/rancor/sr3drancorarcjettrooper/sr3drancorarcjettrooper.mdl", "models/kylejwest/synergyroleplay/rancor/sr3drancorarcheavytrooper/sr3drancorarcheavytrooper.mdl"},
+    description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
+        weapons = {"dradio", "rw_sw_dual_dc17ext", "tfa_swch_clonelauncher_3", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","weapon_jew_det","seal6-c4", "realistic_hook"},
+    command = "RanDEM",
+    max = 0,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Rancor Battalion",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(50)
+    end
+})
+TEAM_RANCOR = DarkRP.createJob("Rancor: Marksman", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/kylejwest/synergyroleplay/rancor/sr3drancorarcjettrooper/sr3drancorarcjettrooper.mdl"},
+    description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
+        weapons = {"dradio", "rw_sw_dc17ext", "tfa_sw_repsnip", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","weapon_rpw_binoculars_scout","zeus_smokegranade", "realistic_hook"},
+    command = "RanMAR",
+    max = 0,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Rancor Battalion",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(50)
+    end
+})
+TEAM_RANCOR = DarkRP.createJob("Rancor: Trooper", {
+    color = Color(191, 0, 95, 255),
+    model = {"models/kylejwest/synergyroleplay/rancor/sr3drancorarctrooper/sr3drancorarctrooper.mdl"},
+    description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
+        weapons = {"dradio", "rw_sw_dc17ext", "rw_sw_dc15a", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","realistic_hook"},
+    command = "RanTRP",
+    max = 0,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Rancor Battalion",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(50)
+    end
+})
 --[[
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
