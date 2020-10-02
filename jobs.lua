@@ -688,12 +688,12 @@ TEAM_RC = DarkRP.createJob("RC Trooper", {
     end
 })
 
-TEAM_RC = DarkRP.createJob("Republic Commando: Foxtrot Lead", {
+TEAM_RC = DarkRP.createJob("Republic Commando: Chaos Company Lead", {
     color = Color(34, 85, 85, 255),
-    model = {"models/synergyroleplay/rcfoxtrotsquad/rcfoxtrotgregor/rcfoxtrotgregor.mdl"},
-    description = [[Foxtrot Group was an elite squad of clone commandos that was attached to the 212th Attack Battalion during the Clone Wars.Led by Clone Captain CC-5576-39 , also known as Gregor.]],
-    weapons = {"realistic_hook", "climb_swep2", "dradio", "weapon_bactainjector", "cross_arms_swep", "cc2018_dc17m", "cc2018_dc17ms", "cc2018_dc17msg", "clone_card_c4", "salute_swep"},
-    command = "foxgreg",
+    model = {"models/gonzo/dopler/dopler.mdl"},
+    description = [[Chaos company was an elite squad of clone commandos during the Clone Wars.Led by a terrifying powerhouse of clone ingenuity.]],
+    weapons = {"realistic_hook", "climb_swep2", "dradio", "tfa_mass_shield", "tfa_sw_cisshot", "cross_arms_swep", "tfa_swch_dc17m_10th", "clone_card_c4", "salute_swep"},
+    command = "chaoslead",
     max = 1,
     salary = 350,
     admin = 0,
@@ -708,16 +708,12 @@ TEAM_RC = DarkRP.createJob("Republic Commando: Foxtrot Lead", {
     end
 })
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_RC = DarkRP.createJob("Republic Commando: Foxtrot EOD", {
+TEAM_RC = DarkRP.createJob("Republic Commando: Chaos Company Trooper", {
     color = Color(34, 85, 85, 255),
-    model = {"models/synergyroleplay/rcfoxtrotsquad/rcfoxtrottrooper1/rcfoxtrottrooper1.mdl"},
-    description = [[Foxtrot Group was an elite squad of clone commandos that was attached to the 212th Attack Battalion during the Clone Wars.Led by Clone Captain CC-5576-39 , also known as Gregor.]],
-    weapons = {"climb_swep2", "dradio", "weapon_bactainjector", "cross_arms_swep", "cc2018_dc17m", "cc2018_dc17ms", "cc2018_dc17msg", "clone_card_c4", "salute_swep"},
-    command = "foxeod",
+    model = {"models/gonzo/tacticalreconcommandos/black/black.mdl"},
+    description = [[Chaos company was an elite squad of clone commandos during the Clone Wars.Led by a terrifying powerhouse of clone ingenuity.]],
+    weapons = {"realistic_hook", "climb_swep2", "dradio", "tfa_mass_shield", "tfa_sw_cisshot", "cross_arms_swep", "tfa_swch_dc17m_10th", "clone_card_c4", "salute_swep"},
+    command = "chaostrp",
     max = 1,
     salary = 350,
     admin = 0,
@@ -731,17 +727,12 @@ TEAM_RC = DarkRP.createJob("Republic Commando: Foxtrot EOD", {
         ply:SetArmor(135)
     end
 })
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_RC = DarkRP.createJob("Republic Commando: Foxtrot Tech", {
+TEAM_RC = DarkRP.createJob("Republic Commando: Chaos Company Medic", {
     color = Color(34, 85, 85, 255),
-    model = {"models/synergyroleplay/rcfoxtrotsquad/rcfoxtrottrooper2/rcfoxtrottrooper2.mdl"},
-    description = [[Foxtrot Group was an elite squad of clone commandos that was attached to the 212th Attack Battalion during the Clone Wars.Led by Clone Captain CC-5576-39 , also known as Gregor.]],
-    weapons = {"climb_swep2", "dradio", "weapon_bactainjector", "cross_arms_swep", "cc2018_dc17m", "cc2018_dc17ms", "cc2018_dc17msg", "clone_card_c4", "salute_swep"},
-    command = "foxtech",
+    model = {"models/gonzo/tacticalreconcommandos/green/green.mdl"},
+    description = [[Chaos company was an elite squad of clone commandos during the Clone Wars.Led by a terrifying powerhouse of clone ingenuity.]],
+    weapons = {"realistic_hook", "climb_swep2", "dradio", "tfa_mass_shield", "tfa_sw_cisshot", "cross_arms_swep", "tfa_swch_dc17m_10th", "weapon_bactainjector", "weapon_bacta_grenade", "weapon_defibrillator", "clone_card_c4", "salute_swep"},
+    command = "chaosmed",
     max = 1,
     salary = 350,
     admin = 0,
@@ -756,130 +747,68 @@ TEAM_RC = DarkRP.createJob("Republic Commando: Foxtrot Tech", {
     end
 })
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_RC = DarkRP.createJob("Republic Commando: Foxtrot Medic", {
-    color = Color(34, 85, 85, 255),
-    model = {"models/synergyroleplay/rcfoxtrotsquad/rcfoxtrottrooper3/rcfoxtrottrooper3.mdl"},
-    description = [[Foxtrot Group was an elite squad of clone commandos that was attached to the 212th Attack Battalion during the Clone Wars.Led by Clone Captain CC-5576-39 , also known as Gregor.]],
-    weapons = {"climb_swep2", "dradio", "weapon_bactainjector", "cross_arms_swep", "cc2018_dc17m", "cc2018_dc17ms", "cc2018_dc17msg", "clone_card_c4", "salute_swep", "weapon_bacta_grenade", "weapon_defibrillator", "realistic_hook"},
-    command = "foxmed",
+TEAM_RC = DarkRP.createJob("Overhaul Detachment: Squad Lead", {
+    color = Color(139,69,19),
+    model = {"models/gonzo/clonecommandoace/clonecommandoace.mdl"},
+    description = [[Squad Lead of the Elite Snipers.]],
+    weapons = {"tfa_swch_dc17m_10th", "realistic_hook", "gauss","weapon_rpw_binoculars", "zeus_smokegranade", "dradio", "climbswep2", "salute_swep", "crossarm_swep", "crossarm_infront_swep", "clone_card_c4"},   
+    command = "overlead",
     max = 1,
-    salary = 350,
+    salary = 100,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
     category = "Republic Commandos",
-    PlayerSpawn = function(ply)
+         PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
         ply:SetArmor(135)
     end
+
 })
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_RC = DarkRP.createJob("Republic Commando: Omega Lead", {
-    color = Color(52, 59, 59, 255),
-    model = {"models/synergyroleplay/rcomegasquad/rcomeganiner/rcomeganiner.mdl"},
-    description = [[Omega Squad was an elite clone commando unit, and was part of the Grand Army of the Republic during the Clone Wars. The members of this unit were brought together after each of their respective squads were killed during action at Geonosis. ]],
-    weapons = {"climb_swep2", "dradio", "weapon_bactainjector", "cross_arms_swep", "cc2018_dc17m", "cc2018_dc17msg", "clone_card_c4", "salute_swep", "cc2018_dc17maa", "cc2018_dc17ms", "realistic_hook"},
-    command = "omelead",
-    max = 1,
-    salary = 350,
+TEAM_RC = DarkRP.createJob("Overhaul Detachment: Trooper", {
+    color = Color(139,69,19),
+    model = {"models/gonzo/imperialcommandodreddandicarus/dredd/dredd.mdl"},
+    description = [[Elite Sniper of the Republic Commandos.]],
+   weapons = {"tfa_swch_dc17m_10th", "realistic_hook", "gauss","weapon_rpw_binoculars", "zeus_smokegranade", "dradio", "climbswep2", "salute_swep", "crossarm_swep","clone_card_c3"},   
+    command = "overtrp",
+    max = 0,
+    salary = 100,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
     category = "Republic Commandos",
-    PlayerSpawn = function(ply)
+         PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
         ply:SetArmor(135)
     end
+
 })
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_RC = DarkRP.createJob("Republic Commando: Omega Demolitions", {
-    color = Color(52, 59, 59, 255),
-    model = {"models/synergyroleplay/rcomegasquad/rcomegadarman/rcomegadarman.mdl"},
-    description = [[Omega Squad was an elite clone commando unit, and was part of the Grand Army of the Republic during the Clone Wars. The members of this unit were brought together after each of their respective squads were killed during action at Geonosis. ]],
-    weapons = {"climb_swep2", "dradio", "weapon_bactainjector", "cross_arms_swep", "cc2018_dc17m", "cc2018_dc17ms", "cc2018_dc17msg", "clone_card_c4", "salute_swep"},
-    command = "omedemo",
-    max = 1,
-    salary = 350,
+TEAM_RC = DarkRP.createJob("Overhaul Detachment: Medic", {
+    color = Color(139,69,19),
+    model = {"models/gonzo/imperialcommandodreddandicarus/icarus/icarus.mdl", "models/gonzo/imperialcommandodreddandicarus/dredd/dredd.mdl"},
+    description = [[Medic of the Elite Sniping Squad.]],
+    weapons = {"tfa_swch_dc17m_10th", "realistic_hook", "gauss","weapon_rpw_binoculars", "zeus_smokegranade", "dradio", "climbswep2", "salute_swep", "crossarm_swep","clone_card_c3", "weapon_defibrilator", "weapon_bactainjector", "weapon_bacta_grenade"},   
+    command = "overmed",
+    max = 0,
+    salary = 100,
     admin = 0,
     vote = false,
     hasLicense = false,
     candemote = false,
     category = "Republic Commandos",
-    PlayerSpawn = function(ply)
+         PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
         ply:SetArmor(135)
     end
-})
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_RC = DarkRP.createJob("Republic Commandos: Omega Sniper", {
-    color = Color(87, 87, 87, 255),
-    model = {"models/synergyroleplay/rcomegasquad/rcomegafi/rcomegafi.mdl"},
-    description = [[Omega Squad was an elite clone commando unit, and was part of the Grand Army of the Republic during the Clone Wars. The members of this unit were brought together after each of their respective squads were killed during action at Geonosis. ]],
-    weapons = {"climb_swep2", "dradio", "weapon_bactainjector", "cross_arms_swep", "cc2018_dc17m", "clone_card_c4", "salute_swep", "cc2018_dc17ms"},
-    command = "omesnip",
-    max = 1,
-    salary = 350,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Republic Commandos",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(135)
-    end
 })
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_RC = DarkRP.createJob("Republic Commandos: Omega Tech", {
-    color = Color(87, 87, 87, 255),
-    model = {"models/synergyroleplay/rcomegasquad/rcomegaatin/rcomegaatin.mdl"},
-    description = [[Omega Squad was an elite clone commando unit, and was part of the Grand Army of the Republic during the Clone Wars. The members of this unit were brought together after each of their respective squads were killed during action at Geonosis. ]],
-    weapons = {"climb_swep2", "dradio", "weapon_bactainjector", "cross_arms_swep", "cc2018_dc17m", "clone_card_c4", "salute_swep", "cc2018_dc17m", "cc2018_dc17msg"},
-    command = "ometech",
-    max = 1,
-    salary = 350,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Republic Commandos",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(135)
-    end
-})
-
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_91 = DarkRP.createJob("91st Recon Corps: Commander", {
     color = Color(150, 3, 3, 255),
     model = {"models/longshot/91st/91st_ponds.mdl"},
@@ -2586,25 +2515,7 @@ TEAM_ATLANTA = DarkRP.createJob("91st: Atlanta Lightning Squad Lead", {
         ply:SetArmor(150)
     end
 })
-TEAM_MONNO = DarkRP.createJob("501st Monno", {
-    color = Color(0, 255, 0, 255),
-    model = {"models/player/gary/commission/starwars/switchback.mdl"},
-    description = [[501st Assassin]],
-    weapons = {"tfa_kotor_br2", "tfa_sw_repsnip", "weapon_camo", "realistic_hook", "dradio", "clone_card_c2", "salute_swep", "climb_swep2"},
-    command = "Monno",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
+
 
 TEAM_EXOCREED = DarkRP.createJob("Dysdaimon Strategos Exocreed", {
     color = Color(0, 128, 128, 255),
@@ -2787,45 +2698,7 @@ TEAM_DROID = DarkRP.createJob("Event Character: Droideka", {
     end
 })
 
-TEAM_KASPER = DarkRP.createJob("Zeonix-Gon Jinn", {
-    color = Color(125, 0, 0, 255),
-    model = {"models/tessa/daggen/daggenjedi.mdl"},
-    description = [[Nephew of the late Qui-Gon Jinn. Born to his mother Abai-Gon Jinn, Qui-Gon's sister, he grew up at the Jedi temple on Coruscant. Being very similar in nature to his uncle, Zeonix-Gon considers himself more of a Grey Jedi.]],
-    weapons = {"CloneCardLvl4", "dradio", "weapon_lightsaber_personal","cross_arms_infront_swep","cross_arms_swep"},
-    command = "cbrontes",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(5000)
-        ply:SetHealth(5000)
-        ply:SetArmor(1000)
-    end
-})
 
-TEAM_JARJAR = DarkRP.createJob("Jar Jar Binks", {
-    color = Color(125, 0, 0, 255),
-    model = {"models/player/starwars/jarjar.mdl"},
-    description = [[a member of the Galactic Senate that will act as Base Ops or a Coorespondant between Anaxes and the Senate]],
-    weapons = {"CloneCardLvl4", "dradio", "tfa_swch_z6_purple", "tfa_westar_plain", "salute_swep", "cross_arms_infront_swep","cross_arms_swep", "realistic_hook", "weapon_shaman", "rw_sw_stun_dc15s"},
-    command = "cjarjar",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
 
 
 TEAM_CHILD = DarkRP.createJob("The Child", {
@@ -2887,7 +2760,7 @@ TEAM_BEE = DarkRP.createJob("Chancellor's Secretary", {
     end
 })
 
-TEAM_444TH = DarkRP.createJob("Med Commissioner Spoon", {
+TEAM_   TH = DarkRP.createJob("Med Commissioner Spoon", {
     color = Color(34, 85, 85, 255),
     model = {"models/krristof/general3/general3.mdl"},
     description = [[The Medical Commissioner and leader of the 444th Elite Medical Squad.]],
@@ -3147,140 +3020,6 @@ TEAM_LITTLE = DarkRP.createJob("444th Pilot Sora", {
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
         ply:SetArmor(50)
-    end
-})
-TEAM_JACK = DarkRP.createJob("Jack of All Trades", {
-    color = Color(25, 99, 168, 255),
-    model = {"models/player/liquid/general/bullseye/bullseyetrooper.mdl"},
-    description = [[The clone made for either charging in head first or setting up behind 27 helmets, this guy can set up defenses or (literally) blow through the enemy lines.]],
-    weapons = {"seal6-c4", "alydus_fortificationbuildertablet", "weapon_bactainjector", "rw_sw_dual_dc17s", "rw_sw_westarm5", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
-    command = "cjack",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Custom Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(100)
-    end
-})
-
-TEAM_NER = DarkRP.createJob("Kal Skirata", {
-    color = Color(253, 1, 1, 255),
-    model = {"models/kylejwest/synergyroleplay/sr3dnullkalskirata/sr3dnullkalskirata.mdl"},
-    description = [[Leader of the mandalorian protectors, this mandalorian helped in the training of clones on kamino, and now leads the mandalorian protectors and the clans that follow it. He will lead his followers to glory and honor, and fight with the republic against the CIS until he dies.]],
-    weapons = {"rw_ammo_distributor", "weapon_bactainjector", "realistic_hook", "iqa11_sniper_rifle", "rw_sw_z6", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
-    command = "ctrizl",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Mandalorian Protectors",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
-TEAM_NER = DarkRP.createJob("Mandalorian Clan Leader", {
-    color = Color(253, 1, 1, 255),
-    model = {"models/kylejwest/synergyroleplay/sr3dnullprudiimando/sr3dnullprudiimando.mdl"},
-    description = [[This Mandalorian is a skilled leader and warrior and has earned the right to found his/her own clan within the Mandalorian Protectors, they still anwser to Kal Skirata, but they have full authority over those who bear the name of their clan. They are fearless, courageous, smart, all the traits that are needed to make a truly fearsome warrior. Pray that you never meet them in battle.]],
-    weapons = {"rw_ammo_distributor", "zeus_thermaldet", "realistic_hook", "tfa_sw_westardual", "dw_wrist_rocket", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
-    command = "mlead",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Mandalorian Protectors",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
-    end
-})
-TEAM_NER = DarkRP.createJob("Mandalorian Decimater", {
-    color = Color(253, 1, 1, 255),
-    model = {"models/kylejwest/synergyroleplay/sr3dnulladenmando/sr3dnulladenmando.mdl"},
-    description = [[These Mandalorians are trained for one purpose. To utterly Decimate enemy vehicles, infantry, fortifications, and just be and unstoppable juggernaut. They are defensive powerhouses and do well on the offensive, however due to their weapons be inaccurate at range and being slow, they should be used to clear buildings, hold chokepoints, or act as a mobile anti-armor or anti-air for their allies. You should hope to never assualt a fortification with them on it, as they will take down hundreds before they fall.]],
-    weapons = {"rw_ammo_distributor", "zeus_thermaldet", "seal6-c4", "alydus_fortificationbuildertablet", "tfa_swch_clonelauncher_3", "rw_sw_z6", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
-    command = "mdeci",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Mandalorian Protectors",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
-TEAM_NER = DarkRP.createJob("Mandalorian Warrior", {
-    color = Color(253, 1, 1, 255),
-    model = {"models/kylejwest/synergyroleplay/sr3dnullkomrkmando/sr3dnullkomrkmando.mdl"},
-    description = [[Warriors Of Mandalore, some of the finest warriors in the galaxy, an all around go warrior that can handle almost any situation that come their way, they can be a fast and agile warrior, using their jetpack to flank enemies, or fight on the ground with deadly effect. They what a true warrior should aspire to be.]],
-    weapons = {"rw_ammo_distributor", "zeus_thermaldet", "realistic_hook", "westar35_blaster_carbine", "mm9_missile_launcher", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
-    command = "mwar",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Mandalorian Protectors",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
-        ply:SetArmor(100)
-    end
-})
-TEAM_NER = DarkRP.createJob("Mandalorian Assassin", {
-    color = Color(253, 1, 1, 255),
-    model = {"models/kylejwest/synergyroleplay/sr3dnullmereelmando/sr3dnullmereelmando.mdl"},
-    description = [[The skilled warriors have honed their marksmanship to accompany stealth, a deadly combination which makes the the perfect scout, sniper, and of course a Assassin. They are agile due to their weaponary and are masters of attacking from an unexpected spot and sneaking away without being detected. However deadly they are, it comes at a cost of their amro not being up to the normal mandalorian armor since they really on speed and stealth. Regardless, if you have a bounty on your head, i would sleep with one eye open and be constantly checking over your shoulder.]],
-    weapons = {"weapon_camo", "zeus_flashbang", "realistic_hook", "iqa11_sniper_rifle", "tfa_krennic_black", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
-    command = "mass",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Mandalorian Protectors",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
-        ply:SetArmor(50)
-    end
-})
-TEAM_NER = DarkRP.createJob("Mandalorian Guardian", {
-    color = Color(253, 1, 1, 255),
-    model = {"models/kylejwest/synergyroleplay/sr3dnullordomando/sr3dnullordomando.mdl"},
-    description = [[The Mandalorians are trained to guard the Clans camps, houses, and towns so that no outsider can dare harm anyone in the clan. They are trained to be deadly accurate and to be fearless. When on a mission it is their duty to defend the clan leaders at all costs, even if it means sacrificing themselves. They also specialize in the medical field for this reason (must be medicaly trained to qualify for this job). All in all, a fierce warrior.]],
-    weapons = {"weapon_defibrillator", "weapon_bacta_grenade", "weapon_bactainjector", "westar35_blaster_carbine", "tfa_swch_de10", "clone_card_c2", "salute_swep", "climb_swep2", "dradio"},
-    command = "mguard",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Mandalorian Protectors",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
     end
 })
 
