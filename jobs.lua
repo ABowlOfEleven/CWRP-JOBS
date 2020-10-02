@@ -2760,7 +2760,7 @@ TEAM_BEE = DarkRP.createJob("Chancellor's Secretary", {
     end
 })
 
-TEAM_   TH = DarkRP.createJob("Med Commissioner Spoon", {
+TEAM_444TH = DarkRP.createJob("Med Commissioner Spoon", {
     color = Color(34, 85, 85, 255),
     model = {"models/krristof/general3/general3.mdl"},
     description = [[The Medical Commissioner and leader of the 444th Elite Medical Squad.]],
