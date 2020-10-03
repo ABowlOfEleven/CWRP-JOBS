@@ -646,7 +646,7 @@ TEAM_5TH = DarkRP.createJob("Shock ARC", {
 --]]
 TEAM_RC = DarkRP.createJob("RC Commander", {
     color = Color(84, 77, 77, 255),
-    model = {"models/player/sono/starwars/scorpion.mdl"},
+    model = {"models/player/gary/commission/starwars/esta_2.mdl"},
     description = [[RC Commander]],
     weapons = {"realistic_hook", "climb_swep2", "dradio", "weapon_bactainjector", "clone_card_c4", "cross_arms_swep", "cc2018_dc17m", "cc2018_dc17ms", "cc2018_dc17msg", "salute_swep", "cross_arms_swep"},
     command = "rccom",
@@ -688,7 +688,7 @@ TEAM_RC = DarkRP.createJob("RC Trooper", {
     end
 })
 
-TEAM_RC = DarkRP.createJob("Republic Commando: Chaos Company Lead", {
+TEAM_RC = DarkRP.createJob("Chaos Company: Squad Lead", {
     color = Color(34, 85, 85, 255),
     model = {"models/gonzo/dopler/dopler.mdl"},
     description = [[Chaos company was an elite squad of clone commandos during the Clone Wars.Led by a terrifying powerhouse of clone ingenuity.]],
@@ -708,7 +708,7 @@ TEAM_RC = DarkRP.createJob("Republic Commando: Chaos Company Lead", {
     end
 })
 
-TEAM_RC = DarkRP.createJob("Republic Commando: Chaos Company Trooper", {
+TEAM_RC = DarkRP.createJob("Chaos Company: Trooper", {
     color = Color(34, 85, 85, 255),
     model = {"models/gonzo/tacticalreconcommandos/black/black.mdl"},
     description = [[Chaos company was an elite squad of clone commandos during the Clone Wars.Led by a terrifying powerhouse of clone ingenuity.]],
@@ -727,7 +727,7 @@ TEAM_RC = DarkRP.createJob("Republic Commando: Chaos Company Trooper", {
         ply:SetArmor(135)
     end
 })
-TEAM_RC = DarkRP.createJob("Republic Commando: Chaos Company Medic", {
+TEAM_RC = DarkRP.createJob("Chaos Company: Medic", {
     color = Color(34, 85, 85, 255),
     model = {"models/gonzo/tacticalreconcommandos/green/green.mdl"},
     description = [[Chaos company was an elite squad of clone commandos during the Clone Wars.Led by a terrifying powerhouse of clone ingenuity.]],
