@@ -712,7 +712,7 @@ TEAM_RC = DarkRP.createJob("Chaos Company: Trooper", {
     color = Color(34, 85, 85, 255),
     model = {"models/gonzo/tacticalreconcommandos/black/black.mdl"},
     description = [[Chaos company was an elite squad of clone commandos during the Clone Wars.Led by a terrifying powerhouse of clone ingenuity.]],
-    weapons = {"realistic_hook", "climb_swep2", "dradio", "tfa_mass_shield", "tfa_sw_cisshot", "cross_arms_swep", "tfa_swch_dc17m_10th", "clone_card_c4", "salute_swep"},
+    weapons = {"realistic_hook", "climb_swep2", "dradio", "tfa_mass_shield", "tfa_sw_cisshot", "cross_arms_swep", "tfa_swch_dc17m_10th", "clone_card_c3", "salute_swep"},
     command = "chaostrp",
     max = 1,
     salary = 350,
@@ -731,7 +731,7 @@ TEAM_RC = DarkRP.createJob("Chaos Company: Medic", {
     color = Color(34, 85, 85, 255),
     model = {"models/gonzo/tacticalreconcommandos/green/green.mdl"},
     description = [[Chaos company was an elite squad of clone commandos during the Clone Wars.Led by a terrifying powerhouse of clone ingenuity.]],
-    weapons = {"realistic_hook", "climb_swep2", "dradio", "tfa_mass_shield", "tfa_sw_cisshot", "cross_arms_swep", "tfa_swch_dc17m_10th", "weapon_bactainjector", "weapon_bacta_grenade", "weapon_defibrillator", "clone_card_c4", "salute_swep"},
+    weapons = {"realistic_hook", "climb_swep2", "dradio", "tfa_mass_shield", "tfa_sw_cisshot", "cross_arms_swep", "tfa_swch_dc17m_10th", "weapon_bactainjector", "weapon_bacta_grenade", "weapon_defibrillator", "clone_card_c3", "salute_swep"},
     command = "chaosmed",
     max = 1,
     salary = 350,
@@ -751,7 +751,7 @@ TEAM_RC = DarkRP.createJob("Overhaul Detachment: Squad Lead", {
     color = Color(139,69,19),
     model = {"models/gonzo/clonecommandoace/clonecommandoace.mdl"},
     description = [[Squad Lead of the Elite Snipers.]],
-    weapons = {"tfa_swch_dc17m_10th", "realistic_hook", "gauss","weapon_rpw_binoculars", "zeus_smokegranade", "dradio", "climbswep2", "salute_swep", "crossarm_swep", "crossarm_infront_swep", "clone_card_c4"},   
+    weapons = {"tfa_swch_dc17m_10th", "realistic_hook", "gauss","weapon_rpw_binoculars", "zeus_smokegranade", "dradio", "climb_swep2", "salute_swep", "crossarm_swep", "crossarm_infront_swep", "clone_card_c4"},   
     command = "overlead",
     max = 1,
     salary = 100,
@@ -772,7 +772,7 @@ TEAM_RC = DarkRP.createJob("Overhaul Detachment: Trooper", {
     color = Color(139,69,19),
     model = {"models/gonzo/imperialcommandodreddandicarus/dredd/dredd.mdl"},
     description = [[Elite Sniper of the Republic Commandos.]],
-   weapons = {"tfa_swch_dc17m_10th", "realistic_hook", "gauss","weapon_rpw_binoculars", "zeus_smokegranade", "dradio", "climbswep2", "salute_swep", "crossarm_swep","clone_card_c3"},   
+   weapons = {"tfa_swch_dc17m_10th", "realistic_hook", "gauss","weapon_rpw_binoculars", "zeus_smokegranade", "dradio", "climb_swep2", "salute_swep", "crossarm_swep","clone_card_c3"},   
     command = "overtrp",
     max = 0,
     salary = 100,
@@ -793,7 +793,7 @@ TEAM_RC = DarkRP.createJob("Overhaul Detachment: Medic", {
     color = Color(139,69,19),
     model = {"models/gonzo/imperialcommandodreddandicarus/icarus/icarus.mdl", "models/gonzo/imperialcommandodreddandicarus/dredd/dredd.mdl"},
     description = [[Medic of the Elite Sniping Squad.]],
-    weapons = {"tfa_swch_dc17m_10th", "realistic_hook", "gauss","weapon_rpw_binoculars", "zeus_smokegranade", "dradio", "climbswep2", "salute_swep", "crossarm_swep","clone_card_c3", "weapon_defibrilator", "weapon_bactainjector", "weapon_bacta_grenade"},   
+    weapons = {"tfa_swch_dc17m_10th", "realistic_hook", "gauss","weapon_rpw_binoculars", "zeus_smokegranade", "dradio", "climb_swep2", "salute_swep", "crossarm_swep","clone_card_c3", "weapon_defibrillator", "weapon_bactainjector", "weapon_bacta_grenade"},   
     command = "overmed",
     max = 0,
     salary = 100,
@@ -2458,8 +2458,8 @@ TEAM_STAFF = DarkRP.createJob("Prism Gaming: Staff", {
 TEAM_SATAL = DarkRP.createJob("CT-1372 Satal", {
     color = Color(115, 18, 11),
     model = {"models/player/suno/keelicompany/keeli/keeli.mdl"},
-    description = "CT-1372 Satal: A Forgotten Clone trooper from the battle of ryloth.",
-    weapons = {"rw_ammo_distributor", "alydus_fortificationbuildertablet", "weapon_rpw_binoculars", "rw_sw_dc15le", "rw_sw_dp23"},
+    description = [[CT-1372 Satal: A Forgotten Clone trooper from the battle of ryloth.]],
+    weapons = {"rw_ammo_distributor", "alydus_fortificationbuildertablet", "weapon_rpw_binoculars", "rw_sw_dc15le", "rw_sw_dp23", "clone_card_c2", "realistic_hook", "dradio", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2"},
     command = "satal",
     max = 1,
     salary = 100,
@@ -2475,12 +2475,12 @@ TEAM_SATAL = DarkRP.createJob("CT-1372 Satal", {
     end
 })
 
-TEAM_SMITH = DarkRP.createJob("Shock: Trooper Smith", {
+TEAM_SMITH = DarkRP.createJob("CPT 2348 COBRA", {
     color = Color(255, 0, 15, 255),
-    model = {"models/player/gideon/coruscantguards/thire/cg_thire.mdl"},
-    description = [[Clone shock troopers, also referred to as shocktroopers, stormtroopers or guardsmen, were the clone troopers of the Coruscant Guard, an elite force founded during the Clone Wars between the Galactic Republic and the Confederacy of Independent Systems.]],
-    weapons = {"rw_sw_stun_dc15s", "rw_sw_dual_dc15s", "clone_card_c3navy", "dradio", "salute_swep", "weapon_rpw_binoculars", "cross_arms_swep", "cross_arms_infront_swep", "zeus_thermaldet", "climb_swep2", "realistic_hook", "weapon_doomshield", "tfa_t21b","arrest_stick", "unarrest_stick", "weapon_cuff_elastic"},
-    command = "smith",
+    model = {"models/player/suno/keelicompany/hawkeye/hawkeye.mdl"},
+    description = [[Officer of a no longer existing battalion.]],
+    weapons = {"rw_sw_westarm5", "rw_sw_dual_dc15s", "clone_card_c3", "realistic_hook", "weapon_rpw_binoculars", "dradio", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2"},
+    command = "cobra",
     max = 1,
     salary = 100,
     admin = 0,
@@ -2489,8 +2489,8 @@ TEAM_SMITH = DarkRP.createJob("Shock: Trooper Smith", {
     candemote = false,
     category = "Custom Classes",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
         ply:SetArmor(250)
         ply:SetRunSpeed(300)
         ply:SetWalkSpeed(150)
