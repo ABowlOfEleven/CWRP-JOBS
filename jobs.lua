@@ -120,9 +120,9 @@ TEAM_JEDI = DarkRP.createJob("Jedi Padawan: Ahsoka Tano", {
 --]]
 TEAM_501 = DarkRP.createJob("501st Legion: Commander", {
     color = Color(0, 24, 255, 255),
-    model = {"models/player/gideon/501st/501st_arc/501st_arc.mdl"},
+    model = {"models/player/gideon/501st/501st_appo/501st_appo.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. ]],
-    weapons = {"dradio", "rw_sw_westarm5", "rw_sw_dual_dc17", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c4", "cross_arms_swep"},
+    weapons = {"dradio", "rw_sw_westarm5", "tfa_dc15s_serv", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c4", "cross_arms_swep"},
     command = "501cmdr",
     max = 1,
     salary = 500,
@@ -140,9 +140,9 @@ TEAM_501 = DarkRP.createJob("501st Legion: Commander", {
 
 TEAM_501 = DarkRP.createJob("501st Legion: Trooper", {
     color = Color(0, 24, 255, 255),
-    model = {"models/player/gideon/501st/501st_trooper/501st_trooper.mdl"},
+    model = {"models/player/gideon/501st/501st_trooper/501st_trooper.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. Being in the 501st meant the probability of rising through the ranks was higher.]],
-    weapons = {"dradio", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2"},
+    weapons = {"dradio", "rw_sw_dc15a", "tfa_dc15s_serv", "clone_card_c1", "salute_swep", "climb_swep2"},
     command = "501trp",
     max = 0,
     salary = 100,
@@ -164,9 +164,9 @@ TEAM_501 = DarkRP.createJob("501st Legion: Trooper", {
 --]]
 TEAM_501 = DarkRP.createJob("501st Legion: Medic", {
     color = Color(0, 24, 255, 255),
-    model = {"models/player/gideon/501st/501st_medic/501st_medic.mdl"},
+    model = {"models/player/gideon/501st/501st_medic/501st_medic.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. Being in the 501st meant the probability of rising through the ranks was higher.]],
-    weapons = {"dradio", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
+    weapons = {"dradio", "rw_sw_dc15a", "tfa_dc15s_serv", "clone_card_c1", "salute_swep", "climb_swep2", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
     command = "501med",
     max = 0,
     salary = 150,
@@ -188,9 +188,9 @@ TEAM_501 = DarkRP.createJob("501st Legion: Medic", {
 --]]
 TEAM_501 = DarkRP.createJob("501st Legion: Officer", {
     color = Color(0, 24, 255, 255),
-    model = {"models/player/gideon/501st/501st_officer/501st_officer.mdl"},
+    model = {"models/player/gideon/501st/501st_officer/501st_officer.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. Being in the 501st meant the probability of rising through the ranks was higher.]],
-    weapons = {"dradio", "rw_sw_dc15a", "salute_swep", "climb_swep2", "clone_card_c3", "rw_sw_dual_dc17"},
+    weapons = {"dradio", "tfa_dc15s_serv", "salute_swep", "climb_swep2", "clone_card_c3", "rw_sw_dual_dc17"},
     command = "501off",
     max = 5,
     salary = 250,
@@ -212,7 +212,7 @@ TEAM_501 = DarkRP.createJob("501st Legion: Officer", {
 --]]
 TEAM_501 = DarkRP.createJob("501st Legion: Heavy", {
     color = Color(0, 10, 255, 255),
-    model = {"models/player/gideon/501st/501st_heavy/501st_heavy.mdl"},
+    model = {"models/player/gideon/501st/501st_heavy/501st_heavy.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. ]],
     weapons = {"dradio", "rw_sw_z6", "clone_card_c1", "salute_swep", "climb_swep2", "rw_ammo_distributor"},
     command = "501hvy",
@@ -232,9 +232,9 @@ TEAM_501 = DarkRP.createJob("501st Legion: Heavy", {
 
 TEAM_501 = DarkRP.createJob("501st Legion: Pilot", {
     color = Color(0, 24, 255, 255),
-    model = {"models/player/gideon/501st/501st_pilot/501st_pilot.mdl"},
+    model = {"models/player/gideon/501st/501st_pilot/501st_pilot.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. Being in the 501st meant the probability of rising through the ranks was higher.]],
-    weapons = {"dradio", "rw_sw_dc17c", "salute_swep", "climb_swep2", "clone_card_c2"},
+    weapons = {"dradio", "tfa_dc15s_serv", "salute_swep", "climb_swep2", "clone_card_c2"},
     command = "501pilot",
     max = 10,
     salary = 250,
@@ -258,7 +258,7 @@ TEAM_501 = DarkRP.createJob("501st Legion: Torrent Company Leader", {
     color = Color(0, 10, 255, 255),
     model = {"models/player/gideon/501st/501st_tco/501st_tco.mdl"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. ]],
-    weapons = {"dradio", "rw_sw_westarm5", "rw_sw_dual_dc17", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c3"},
+    weapons = {"dradio", "rw_sw_westarm5", "tfa_dc15s_serv", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c3"},
     command = "501tl",
     max = 1,
     salary = 300,
@@ -282,7 +282,7 @@ TEAM_501 = DarkRP.createJob("501st Legion: Torrent Company Medic", {
     color = Color(0, 10, 255, 255),
     model = {"models/player/gideon/501st/501st_medic/501st_medic.mdl"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. ]],
-    weapons = {"dradio", "rw_sw_westarm5", "rw_sw_dual_dc17", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c3", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
+    weapons = {"dradio", "rw_sw_westarm5", "tfa_dc15s_serv", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c3", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
     command = "501tm",
     max = 1,
     salary = 300,
@@ -330,7 +330,7 @@ TEAM_501 = DarkRP.createJob("501st Legion: Fives", {
     color = Color(34, 85, 85, 255),
     model = {"models/player/gideon/501stfives/501stfives.mdl"},
     description = [[Fives]],
-    weapons = {"dradio", "rw_sw_westarm5", "rw_sw_dual_dc17", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c2"},
+    weapons = {"dradio", "rw_sw_westarm5", "tfa_dc15s_serv", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c2"},
     command = "501fives",
     max = 1,
     salary = 250,
@@ -346,6 +346,45 @@ TEAM_501 = DarkRP.createJob("501st Legion: Fives", {
     end
 })
 
+TEAM_501 = DarkRP.createJob("501st Legion: Jesse", {
+    color = Color(34, 85, 85, 255),
+    model = {"models/player/gideon/501stjesse/501stjesse.mdl"},
+    description = [[Jesse]],
+    weapons = {"dradio", "rw_sw_westarm5", "tfa_dc15s_serv", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c2"},
+    command = "501jesse",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "501st Legion",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
+
+TEAM_501 = DarkRP.createJob("501st Legion: Echo", {
+    color = Color(34, 85, 85, 255),
+    model = {"models/player/gideon/501stecho/501stecho.mdl"},
+    description = [[Jesse]],
+    weapons = {"dradio", "rw_sw_westarm5", "tfa_dc15s_serv", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c2"},
+    command = "501echo",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "501st Legion",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
 --[[
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
@@ -354,7 +393,7 @@ TEAM_501 = DarkRP.createJob("501st Legion: Kix", {
     color = Color(34, 85, 85, 255),
     model = {"models/player/gideon/501st/501st_kix/501st_kix.mdl"},
     description = [[Kix]],
-    weapons = {"dradio", "rw_sw_westarm5", "rw_sw_dual_dc17", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c2", "weapon_bactanade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
+    weapons = {"dradio", "rw_sw_westarm5", "tfa_dc15s_serv", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c2", "weapon_bactanade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
     command = "501kix",
     max = 1,
     salary = 250,
@@ -401,7 +440,7 @@ TEAM_501 = DarkRP.createJob("501st Legion: Hardcase", {
 
 TEAM_5TH = DarkRP.createJob("Shock: Commander", {
     color = Color(255, 0, 15, 255),
-    model = {"models/sample/sector/specialized/specialized.mdl"},
+    model = {"models/cg/ln/fox/fox.mdl"},
     description = [[Clone shock troopers, also referred to as shocktroopers, stormtroopers or guardsmen, were the clone troopers of the Coruscant Guard, an elite force founded during the Clone Wars between the Galactic Republic and the Confederacy of Independent Systems.]],
     weapons = {"realistic_hook", "rw_sw_stun_dc15s", "rw_sw_dc15s", "rw_sw_dual_dc17", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2", "arrest_stick", "unarrest_stick", "weapon_cuff_elastic", "cross_arms_swep"},
     command = "5cmdr",
@@ -3077,6 +3116,118 @@ TEAM_VIP = DarkRP.createJob("Walking Hutt", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
+
+--[[
+    Generated using: DarkRP | Job Generator
+    https://csite.io/tools/gmod-darkrp-job
+--]]
+TEAM_SHADOW = DarkRP.createJob("Shadow Commander", {
+    color = Color(0, 0, 0, 255),
+    model = {
+        "models/reizer_cgi_p2/spec_cmd/spec_cmd.mdl",
+        "models/reizer_cgi_p2/spec_kamma/spec_kamma.mdl",
+        "models/reizer_cgi_p2/spec_snow_cmd/spec_snow_cmd.mdl"
+    },
+    description = [[Commander of a Spec ops regiment which mainly focuses on recon and assassinations]],
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c4", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep"},
+    command = "shdcmd",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "73rd Shadow Battalion"
+})
+
+--[[
+    Generated using: DarkRP | Job Generator
+    https://csite.io/tools/gmod-darkrp-job
+--]]
+TEAM_SHADOW = DarkRP.createJob("Shadow Officer", {
+    color = Color(0, 0, 0, 255),
+    model = {
+        "models/reizer_cgi_p2/spec_cpt/spec_cpt.mdl",
+        "models/reizer_cgi_p2/spec_lt/spec_lt.mdl",
+        "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
+    },
+    description = [[Officer of a Spec ops regiment which mainly focuses on recon and assassinations]],
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c3", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep"},
+    command = "shdcpt",
+    max = 2,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "73rd Shadow Battalion"
+})
+
+--[[
+    Generated using: DarkRP | Job Generator
+    https://csite.io/tools/gmod-darkrp-job
+--]]
+TEAM_SHADOW = DarkRP.createJob("Shadow Trooper", {
+    color = Color(0, 0, 0, 255),
+    model = {
+        "models/reizer_cgi_p2/spec_trp/spec_trp.mdl",
+        "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
+    },
+    description = [[Trooper of a Spec ops regiment which mainly focuses on recon and assassinations]],
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep"},
+    command = "shdtrp",
+    max = 6,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "73rd Shadow Battalion"
+})
+
+--[[
+    Generated using: DarkRP | Job Generator
+    https://csite.io/tools/gmod-darkrp-job
+--]]
+TEAM_SHADOW = DarkRP.createJob("Shadow Pilot", {
+    color = Color(0, 0, 0, 255),
+    model = {
+        "models/reizer_cgi_p2/spec_snow/spec_snow.mdl",
+        "models/reizer_cgi_p2/spec_pilot/spec_pilot.mdl"
+    },
+    description = [[The pilot of a Spec ops regiment which mainly focuses on recon and assassinations]],
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep"},
+    command = "shdpil",
+    max = 2,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "73rd Shadow Battalion"
+})
+
+--[[
+    Generated using: DarkRP | Job Generator
+    https://csite.io/tools/gmod-darkrp-job
+--]]
+TEAM_SHADOW = DarkRP.createJob("Shadow Medic", {
+    color = Color(0, 0, 0, 255),
+    model = {
+        "models/reizer_cgi_p2/spec_med/spec_med.mdl",
+        "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
+    },
+    description = [[Medic of a Spec ops regiment which mainly focuses on recon and assassinations]],
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_defibrillator"},
+    command = "shdmed",
+    max = 2,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "73rd Shadow Battalion"
+})
 
 
 --[[---------------------------------------------------------------------------

@@ -211,7 +211,14 @@ DarkRP.createCategory{
     sortOrder = 5
 }
 
-
+DarkRP.createCategory{
+    name = "Shadow Battalion",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(250, 111, 111, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 6
+}
 --[[
     Generated using: DarkRP | Category Generator
     https://csite.io/tools/gmod-darkrp-category
@@ -222,7 +229,7 @@ DarkRP.createCategory{
     name = "Base Operations",
     categorises = "jobs",
     startExpanded = false,
-    color = Color(255, 42, 42, 255),
+    color = Color(0, 0, 0, 255),
     canSee = function(ply) return true end,
     sortOrder = 9
 }
