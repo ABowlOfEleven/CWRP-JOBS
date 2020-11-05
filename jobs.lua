@@ -120,7 +120,7 @@ TEAM_JEDI = DarkRP.createJob("Jedi Padawan: Ahsoka Tano", {
 --]]
 TEAM_501 = DarkRP.createJob("501st Legion: Commander", {
     color = Color(0, 24, 255, 255),
-    model = {"models/player/gideon/501st/501st_appo/501st_appo.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
+    model = {"models/player/gideon/501st/501st_arc/501st_arc.mdl", "models/player/gideon/501st/501st_snow/501st_snow.mdl"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. ]],
     weapons = {"dradio", "rw_sw_westarm5", "tfa_dc15s_serv", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c4", "cross_arms_swep"},
     command = "501cmdr",
@@ -138,9 +138,29 @@ TEAM_501 = DarkRP.createJob("501st Legion: Commander", {
     end
 })
 
+TEAM_501 = DarkRP.createJob("501st Legion: Appo", {
+    color = Color(0, 24, 255, 255),
+    model = {"models/player/gideon/501st/501st_appo/501st_appo.mdl", "models/player/gideon/501st/501st_snow/501st_snow.mdl"},
+    description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. ]],
+    weapons = {"dradio", "rw_sw_westarm5", "tfa_dc15s_serv", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c3", "cross_arms_swep"},
+    command = "501appo",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "501st Legion",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
+
 TEAM_501 = DarkRP.createJob("501st Legion: Trooper", {
     color = Color(0, 24, 255, 255),
-    model = {"models/player/gideon/501st/501st_trooper/501st_trooper.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
+    model = {"models/player/gideon/501st/501st_trooper/501st_trooper.mdl", "models/player/gideon/501st/501st_snow/501st_snow.mdl"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. Being in the 501st meant the probability of rising through the ranks was higher.]],
     weapons = {"dradio", "rw_sw_dc15a", "tfa_dc15s_serv", "clone_card_c1", "salute_swep", "climb_swep2"},
     command = "501trp",
@@ -164,7 +184,7 @@ TEAM_501 = DarkRP.createJob("501st Legion: Trooper", {
 --]]
 TEAM_501 = DarkRP.createJob("501st Legion: Medic", {
     color = Color(0, 24, 255, 255),
-    model = {"models/player/gideon/501st/501st_medic/501st_medic.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
+    model = {"models/player/gideon/501st/501st_medic/501st_medic.mdl", "models/player/gideon/501st/501st_snow/501st_snow.mdl"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. Being in the 501st meant the probability of rising through the ranks was higher.]],
     weapons = {"dradio", "rw_sw_dc15a", "tfa_dc15s_serv", "clone_card_c1", "salute_swep", "climb_swep2", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
     command = "501med",
@@ -188,7 +208,7 @@ TEAM_501 = DarkRP.createJob("501st Legion: Medic", {
 --]]
 TEAM_501 = DarkRP.createJob("501st Legion: Officer", {
     color = Color(0, 24, 255, 255),
-    model = {"models/player/gideon/501st/501st_officer/501st_officer.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
+    model = {"models/player/gideon/501st/501st_officer/501st_officer.mdl", "models/player/gideon/501st/501st_snow/501st_snow.mdl"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. Being in the 501st meant the probability of rising through the ranks was higher.]],
     weapons = {"dradio", "tfa_dc15s_serv", "salute_swep", "climb_swep2", "clone_card_c3", "rw_sw_dual_dc17"},
     command = "501off",
@@ -212,7 +232,7 @@ TEAM_501 = DarkRP.createJob("501st Legion: Officer", {
 --]]
 TEAM_501 = DarkRP.createJob("501st Legion: Heavy", {
     color = Color(0, 10, 255, 255),
-    model = {"models/player/gideon/501st/501st_heavy/501st_heavy.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
+    model = {"models/player/gideon/501st/501st_heavy/501st_heavy.mdl", "models/player/gideon/501st/501st_snow/501st_snow.mdl"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. ]],
     weapons = {"dradio", "rw_sw_z6", "clone_card_c1", "salute_swep", "climb_swep2", "rw_ammo_distributor"},
     command = "501hvy",
@@ -232,7 +252,7 @@ TEAM_501 = DarkRP.createJob("501st Legion: Heavy", {
 
 TEAM_501 = DarkRP.createJob("501st Legion: Pilot", {
     color = Color(0, 24, 255, 255),
-    model = {"models/player/gideon/501st/501st_pilot/501st_pilot.mdl", "models/player/gideon/501st/501st_snow/501st_snow"},
+    model = {"models/player/gideon/501st/501st_pilot/501st_pilot.mdl", "models/player/gideon/501st/501st_snow/501st_snow.mdl"},
     description = [[The 501st Legion, also known as the 501st Battalion or simply the 501st, was one of most prestigious divisions of clone troopers in the Grand Army of the Republic, during and after the Clone Wars. It was led by a variety of clones along with General Skywalker. The members of the Legion wore customized blue markings to identify themselves as members of the 501st. To join the Legion, clones had to gain experience in battles and show initiative and leadership. Many smaller units of clone troopers were also part of the 501st Legion, including Torrent Company. Being in the 501st meant the probability of rising through the ranks was higher.]],
     weapons = {"dradio", "tfa_dc15s_serv", "salute_swep", "climb_swep2", "clone_card_c2"},
     command = "501pilot",
@@ -1423,11 +1443,11 @@ TEAM_MANDO = DarkRP.createJob("327th Star Corps: Trooper", {
     end
 })
 
-TEAM_21ST = DarkRP.createJob("Galactic Marines: Bacara", {
+TEAM_21ST = DarkRP.createJob("Galactic Marines: Commander", {
     color = Color(191, 0, 95, 255),
-    model = {"models/player/gideon/bacara/gm_bacara.mdl"},
+    model = {"models/player/gideon/bacara/gm_bacara.mdl", "models/player/gideon/galacticmarine/kellersunit/gm_ku.mdl", "models/player/gideon/galacticmarine/camo/forest/gm_forest.mdl","models/player/gideon/galacticmarine/camo/sand/gm_sand.mdl","models/player/gideon/galacticmarine/white/gm_white.mdl"},
     description = [[The 21st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
-    weapons = {"clone_card_c4", "salute_swep", "climb_swep2", "rw_sw_dual_dc17ext","realistic_hook","tfa_t21_extended", "dradio", "cross_arms_swep"},
+    weapons = {"clone_card_c4", "salute_swep", "climb_swep2", "rw_sw_dual_dc15s","realistic_hook","tfa_t21_extended", "dradio", "cross_arms_swep"},
     command = "bacara",
     max = 1,
     salary = 500,
@@ -1451,9 +1471,9 @@ TEAM_21ST = DarkRP.createJob("Galactic Marines: Bacara", {
 --]]
 TEAM_21ST = DarkRP.createJob("Galactic Marines: Trooper", {
     color = Color(191, 0, 95, 255),
-    model = {"models/player/gideon/galacticmarine/trooper/gm_trooper.mdl"},
+    model = {"models/player/gideon/galacticmarine/trooper/gm_trooper.mdl", "models/player/gideon/galacticmarine/camo/forest/gm_forest.mdl","models/player/gideon/galacticmarine/camo/sand/gm_sand.mdl","models/player/gideon/galacticmarine/white/gm_white.mdl"},
     description = [[The 2"1st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
-        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2"},
+        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "clone_card_c1", "realistic_hook", "salute_swep", "climb_swep2"},
     command = "gmtrooper",
     max = 0,
     salary = 150,
@@ -1473,11 +1493,11 @@ TEAM_21ST = DarkRP.createJob("Galactic Marines: Trooper", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_21ST = DarkRP.createJob("Galactic Marines: Officer", {
+TEAM_21ST = DarkRP.createJob("Galactic Marines: Engineer", {
     color = Color(191, 0, 95, 255),
-    model = {"models/player/gideon/galacticmarine/white/gm_white.mdl"},
+    model = {"models/gms/gm_s/gm/pm_sw_galacticmarine.mdl", "models/player/gideon/galacticmarine/white/gm_white.mdl", "models/player/gideon/galacticmarine/camo/forest/gm_forest.mdl","models/player/gideon/galacticmarine/camo/sand/gm_sand.mdl"},
     description = [[The 2"1st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
-        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "alydus_fortificationbuildertablet","rw_sw_dual_dc17ext","clone_card_c1", "salute_swep", "climb_swep2"},
+        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "alydus_fortificationbuildertablet", "realistic_hook", "rw_sw_dual_dc17ext","clone_card_c1", "salute_swep", "climb_swep2"},
     command = "gmofficer",
     max = 0,
     salary = 150,
@@ -1497,11 +1517,11 @@ TEAM_21ST = DarkRP.createJob("Galactic Marines: Officer", {
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
 --]]
-TEAM_21ST = DarkRP.createJob("Galactic Marines: Medic", {
+TEAM_21ST = DarkRP.createJob("Galactic Marines: Corpsman", {
     color = Color(191, 0, 95, 255),
-    model = {"models/player/gideon/galacticmarine/medic/gm_medic.mdl"},
+    model = {"models/player/gideon/galacticmarine/medic/gm_medic.mdl", "models/player/gideon/galacticmarine/camo/forest/gm_forest.mdl","models/player/gideon/galacticmarine/camo/sand/gm_sand.mdl","models/player/gideon/galacticmarine/white/gm_white.mdl"},
     description = [[The 2"1st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
-        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2","weapon_defibrillator","weapon_bactainjector","weapon_bactagrenade"},
+        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "clone_card_c1", "realistic_hook", "salute_swep", "climb_swep2","weapon_defibrillator","weapon_bactainjector","weapon_bactagrenade"},
     command = "gmmedic",
     max = 0,
     salary = 150,
@@ -1523,9 +1543,9 @@ TEAM_21ST = DarkRP.createJob("Galactic Marines: Medic", {
 --]]
 TEAM_21ST = DarkRP.createJob("Galactic Marines: Flame Trooper", {
     color = Color(191, 0, 95, 255),
-    model = {"models/player/gideon/galacticmarine/assaultspecialist/gm_assaultspecialist.mdl"},
+    model = {"models/player/gideon/galacticmarine/assaultspecialist/gm_assaultspecialist.mdl", "models/player/gideon/galacticmarine/camo/forest/gm_forest.mdl","models/player/gideon/galacticmarine/camo/sand/gm_sand.mdl","models/player/gideon/galacticmarine/white/gm_white.mdl"},
     description = [[The 2"1st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
-        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2","flamethrower_variant","alydus_fortificationbuildertablet"},
+        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "clone_card_c1", "realistic_hook", "salute_swep", "climb_swep2","flamethrower_basic","alydus_fortificationbuildertablet"},
     command = "gmflame",
     max = 0,
     salary = 150,
@@ -1541,11 +1561,11 @@ TEAM_21ST = DarkRP.createJob("Galactic Marines: Flame Trooper", {
     end
 })
 
-TEAM_21ST = DarkRP.createJob("Galactic Marines: Breacher", {
+TEAM_21ST = DarkRP.createJob("Galactic Marines: Heavy", {
     color = Color(191, 0, 95, 255),
-    model = {"models/player/gideon/galacticmarine/elitesupport/gm_elitesupport.mdl"},
+    model = {"models/player/gideon/galacticmarine/elitesupport/gm_elitesupport.mdl", "models/player/gideon/galacticmarine/camo/forest/gm_forest.mdl","models/player/gideon/galacticmarine/camo/sand/gm_sand.mdl","models/player/gideon/galacticmarine/white/gm_white.mdl"},
     description = [[The 2"1st Nova Corps aka Galactic Marines were a heavy assault corps lead by Jedi General Ki-Adi Mundi and Commander Bacara.]],
-        weapons = {"dradio", "tfa_t21_extended", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2","rw_sw_dp23","realistic_hook"},
+        weapons = {"dradio", "rw_sw_z6", "rw_sw_dc17", "clone_card_c1", "salute_swep", "climb_swep2","rw_sw_dp23","realistic_hook"},
     command = "gmbreacher",
     max = 0,
     salary = 150,
@@ -1976,10 +1996,10 @@ TEAM_COMMAND = DarkRP.createJob("Regimental Commander", {
     end
 })
 
-TEAM_COMMAND = DarkRP.createJob("Senior Commander Scythe", {
+TEAM_COMMAND = DarkRP.createJob("Marshal Commander Rage", {
     color = Color(255, 0, 0, 255),
     model = {"models/player/suno/hero/specialist_general_2.mdl"},
-    description = [[Regimenta CMDR for Attack]],
+    description = [[Marshal Commander Rage]],
     weapons = {"dradio", "realistic_hook", "climb_swep2", "clone_card_c4", "10th_rw_sw_z6", "rw_sw_westarm5", "zeus_thermaldet", "salute_swep", "cross_arms_swep"},
     command = "scomscythe",
     max = 1,
@@ -1996,12 +2016,12 @@ TEAM_COMMAND = DarkRP.createJob("Senior Commander Scythe", {
     end
 })
 
-TEAM_COMMAND = DarkRP.createJob("Senior Commander Aidan", {
+TEAM_COMMAND = DarkRP.createJob("Senior Commander Poy", {
     color = Color(255, 0, 0, 255),
-    model = {"models/player/gary/commission/starwars/kindro.mdl"},
-    description = [[Regimenta CMDR for Defense]],
-    weapons = {"dradio", "realistic_hook", "climb_swep2", "clone_card_c4", "rw_sw_dual_dc17ext", "rw_sw_westarm5", "salute_swep", "cross_arms_swep"},
-    command = "scomaiden",
+    model = {"models/player/dolan/dolan_specreg/dolan_specreg.mdl","models/player/gary/bln/starwars/arc/tragic.mdl"},
+    description = [[Senior for Attack]],
+    weapons = {"dradio", "realistic_hook", "climb_swep2", "clone_card_c4", "rw_sw_dual_dc17", "rw_sw_westarm5", "zeus_thermaldet", "salute_swep", "cross_arms_swep"},
+    command = "senpoy",
     max = 1,
     salary = 500,
     admin = 0,
@@ -2010,9 +2030,9 @@ TEAM_COMMAND = DarkRP.createJob("Senior Commander Aidan", {
     candemote = false,
     category = "High Command",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(700)
-        ply:SetHealth(700)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
     end
 })
 
