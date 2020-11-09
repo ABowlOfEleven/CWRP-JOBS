@@ -2036,6 +2036,26 @@ TEAM_COMMAND = DarkRP.createJob("Senior Commander Poy", {
     end
 })
 
+TEAM_COMMAND = DarkRP.createJob("Senior Commander Aiden", {
+    color = Color(255, 0, 0, 255),
+    model = {"models/player/gary/commission/starwars/kindro.mdl"},
+    description = [[Senior for Defense]],
+    weapons = {"dradio", "realistic_hook", "climb_swep2", "clone_card_c4", "tfa_dlt20a_extended", "rw_sw_westarm5", "zeus_thermaldet", "salute_swep", "cross_arms_swep"},
+    command = "senaid",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "High Command",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
+
 TEAM_COMMAND = DarkRP.createJob("Marshal Commander", {
     color = Color(255, 0, 0, 255),
       model = {
@@ -2534,12 +2554,12 @@ TEAM_SATAL = DarkRP.createJob("CT-1372 Satal", {
     end
 })
 
-TEAM_SMITH = DarkRP.createJob("CPT 2348 COBRA", {
+TEAM_SMITH = DarkRP.createJob("Shock Officer Smith", {
     color = Color(255, 0, 15, 255),
-    model = {"models/player/suno/keelicompany/hawkeye/hawkeye.mdl"},
-    description = [[Officer of a no longer existing battalion.]],
-    weapons = {"rw_sw_westarm5", "rw_sw_dual_dc15s", "clone_card_c3", "realistic_hook", "weapon_rpw_binoculars", "dradio", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2"},
-    command = "cobra",
+    model = {"models/player/gideon/coruscantguards/thire/cg_thire.mdl"},
+    description = [[He's an OP shock officer. 'Nuff said.]],
+    weapons = {"10th_rw_sw_z6", "tfa_dlt20a_extended", "rw_sw_stun_dc15s", "arrest_stick", "unarrest_stick", "weapon_cuff_elastic", "weapon_doomshield", "clone_card_c3", "realistic_hook", "weapon_rpw_binoculars", "dradio", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2"},
+    command = "smith",
     max = 1,
     salary = 100,
     admin = 0,
@@ -3144,9 +3164,9 @@ TEAM_VIP = DarkRP.createJob("Walking Hutt", {
 TEAM_SHADOW = DarkRP.createJob("Shadow Commander", {
     color = Color(0, 0, 0, 255),
     model = {
-        "models/reizer_cgi_p2/spec_cmd/spec_cmd.mdl",
-        "models/reizer_cgi_p2/spec_kamma/spec_kamma.mdl",
-        "models/reizer_cgi_p2/spec_snow_cmd/spec_snow_cmd.mdl"
+        "models/cgi_ultimate/shadow/commander/commander.mdl",
+        "models/cgi_ultimate/shadow/pilot/pilot.mdl",
+        "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
     },
     description = [[Commander of a Spec ops regiment which mainly focuses on recon and assassinations]],
     weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c4", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep"},
@@ -3167,8 +3187,8 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Commander", {
 TEAM_SHADOW = DarkRP.createJob("Shadow Officer", {
     color = Color(0, 0, 0, 255),
     model = {
-        "models/reizer_cgi_p2/spec_cpt/spec_cpt.mdl",
-        "models/reizer_cgi_p2/spec_lt/spec_lt.mdl",
+        "models/cgi_ultimate/shadow/officer/officer.mdl",
+        "models/cgi_ultimate/shadow/paratrooper/paratrooper.mdl",
         "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
     },
     description = [[Officer of a Spec ops regiment which mainly focuses on recon and assassinations]],
@@ -3190,7 +3210,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Officer", {
 TEAM_SHADOW = DarkRP.createJob("Shadow Trooper", {
     color = Color(0, 0, 0, 255),
     model = {
-        "models/reizer_cgi_p2/spec_trp/spec_trp.mdl",
+        "models/cgi_ultimate/shadow/trooper/trooper.mdl",
         "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
     },
     description = [[Trooper of a Spec ops regiment which mainly focuses on recon and assassinations]],
@@ -3212,8 +3232,8 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Trooper", {
 TEAM_SHADOW = DarkRP.createJob("Shadow Pilot", {
     color = Color(0, 0, 0, 255),
     model = {
-        "models/reizer_cgi_p2/spec_snow/spec_snow.mdl",
-        "models/reizer_cgi_p2/spec_pilot/spec_pilot.mdl"
+        "models/cgi_ultimate/shadow/pilot/pilot.mdl",
+        "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
     },
     description = [[The pilot of a Spec ops regiment which mainly focuses on recon and assassinations]],
     weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep"},
@@ -3234,7 +3254,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Pilot", {
 TEAM_SHADOW = DarkRP.createJob("Shadow Medic", {
     color = Color(0, 0, 0, 255),
     model = {
-        "models/reizer_cgi_p2/spec_med/spec_med.mdl",
+        "models/cgi_ultimate/shadow/medic/medic.mdl",
         "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
     },
     description = [[Medic of a Spec ops regiment which mainly focuses on recon and assassinations]],
