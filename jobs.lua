@@ -1586,7 +1586,7 @@ TEAM_RANCOR = DarkRP.createJob("Rancor: Commander", {
     color = Color(191, 0, 95, 255),
     model = {"models/doublehexgaming/dhgarcrancorblitz/dhgarcrancorblitz.mdl","models/doublehexgaming/dhgarcrancorcolt/dhgarcrancorcolt.mdl","models/doublehexgaming/dhgarcrancorhavoc/dhgarcrancorhavoc.mdl"},
     description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
-        weapons = {"dradio", "rw_sw_dp23", "rw_sw_dual_dc17ext", "clone_card_c4", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "climb_swep2","rw_sw_dc15a","realistic_hook"},
+        weapons = {"dradio", "rw_sw_dp23", "rw_sw_dual_dc17ext", "clone_card_c4", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "climb_swep2", "realistic_hook", "rw_sw_westarm5", "tfa_dc15s_serv", "seal6-c4", "weapon_rpw_binoculars"},
     command = "RanCMDR",
     max = 0,
     salary = 150,
@@ -1606,7 +1606,7 @@ TEAM_RANCOR = DarkRP.createJob("Rancor: Medic", {
     color = Color(191, 0, 95, 255),
     model = {"models/kylejwest/synergyroleplay/rancor/sr3drancorarcmedic/sr3drancorarcmedic.mdl"},
     description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
-        weapons = {"dradio", "rw_sw_dc17ext", "rw_sw_dc15s", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","weapon_defibrillator","weapon_bactainjector","weapon_bactagrenade", "realistic_hook"},
+        weapons = {"dradio", "rw_sw_dc17ext", "tfa_dc15s_serv", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","weapon_defibrillator","weapon_bactainjector","weapon_bactagrenade", "realistic_hook", "rw_sw_westarm5", "seal6-c4"},
     command = "RanMED",
     max = 0,
     salary = 150,
@@ -1626,7 +1626,7 @@ TEAM_RANCOR = DarkRP.createJob("Rancor: Heavy Gunner", {
     color = Color(191, 0, 95, 255),
     model = {"models/kylejwest/synergyroleplay/rancor/sr3drancorarcheavytrooper/sr3drancorarcheavytrooper.mdl"},
     description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
-        weapons = {"dradio", "rw_sw_dc17ext", "10th_rw_sw_z6", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","rw_ammo_distributor", "realistic_hook"},
+        weapons = {"dradio", "rw_sw_dc17ext", "10th_rw_sw_z6", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","rw_ammo_distributor", "realistic_hook", "tfa_dc15s_serv", "seal6-c4"},
     command = "RanHEV",
     max = 0,
     salary = 150,
@@ -1645,7 +1645,7 @@ TEAM_RANCOR = DarkRP.createJob("Rancor: Demolitions", {
     color = Color(191, 0, 95, 255),
     model = {"models/kylejwest/synergyroleplay/rancor/sr3drancorarcjettrooper/sr3drancorarcjettrooper.mdl", "models/kylejwest/synergyroleplay/rancor/sr3drancorarcheavytrooper/sr3drancorarcheavytrooper.mdl"},
     description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
-        weapons = {"dradio", "rw_sw_dual_dc17ext", "tfa_swch_clonelauncher_3", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","weapon_jew_det","seal6-c4", "realistic_hook"},
+        weapons = {"dradio", "rw_sw_dual_dc17ext", "tfa_swch_clonelauncher_3", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","weapon_jew_det","seal6-c4", "realistic_hook", "rw_sw_westarm5", "tfa_dc15s_serv"},
     command = "RanDEM",
     max = 0,
     salary = 150,
@@ -1664,7 +1664,7 @@ TEAM_RANCOR = DarkRP.createJob("Rancor: Marksman", {
     color = Color(191, 0, 95, 255),
     model = {"models/kylejwest/synergyroleplay/rancor/sr3drancorarcjettrooper/sr3drancorarcjettrooper.mdl"},
     description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
-        weapons = {"dradio", "rw_sw_dc17ext", "tfa_sw_repsnip", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","weapon_rpw_binoculars_scout","zeus_smokegranade", "realistic_hook"},
+        weapons = {"dradio", "rw_sw_dc17ext", "tfa_sw_repsnip", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","weapon_rpw_binoculars_scout","zeus_smokegranade", "realistic_hook","rw_sw_westarm5", "tfa_dc15s_serv", "seal6-c4"},
     command = "RanMAR",
     max = 0,
     salary = 150,
@@ -1683,7 +1683,7 @@ TEAM_RANCOR = DarkRP.createJob("Rancor: Trooper", {
     color = Color(191, 0, 95, 255),
     model = {"models/kylejwest/synergyroleplay/rancor/sr3drancorarctrooper/sr3drancorarctrooper.mdl"},
     description = [[The Rancor Battalion is an elite company specializing in advanced recon and combat.]],
-        weapons = {"dradio", "rw_sw_dc17ext", "rw_sw_dc15a", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","realistic_hook"},
+        weapons = {"dradio", "rw_sw_dc17ext", "rw_sw_westarm5", "clone_card_c1", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2","realistic_hook", "tfa_dc15s_serv", "seal6-c4"},
     command = "RanTRP",
     max = 0,
     salary = 150,
@@ -1979,11 +1979,11 @@ TEAM_BASEOPS = DarkRP.createJob("Base Ops: Engineer", {
 
 TEAM_COMMAND = DarkRP.createJob("Regimental Commander", {
     color = Color(255, 0, 0, 255),
-    model = {"models/player/dolan/dolan_specreg/dolan_specreg.mdl","models/player/liquid/arc/general/arcgeneral.mdl"},
+    model = {"models/player/dolan/dolan_specreg/dolan_specreg.mdl","models/player/liquid/arc/general/arcgeneral.mdl", "models/player/gary/bln/starwars/arc/tragic.mdl", "models/player/gary/commission/starwars/kindro.mdl"},
     description = [[Regimental for Special]],
-    weapons = {"dradio", "realistic_hook", "climb_swep2", "clone_card_c4", "rw_sw_dual_dc17", "rw_sw_westarm5", "zeus_thermaldet", "salute_swep", "cross_arms_swep"},
+    weapons = {"dradio", "realistic_hook", "climb_swep2", "clone_card_c4", "rw_sw_dual_dc17", "rw_sw_westarm5", "zeus_thermaldet", "salute_swep", "cross_arms_swep", "alydus_fortificationbuildertablet", "10th_rw_sw_z6", "weapon_rpw_binoculars"},
     command = "regcomm",
-    max = 1,
+    max = 3,
     salary = 500,
     admin = 0,
     vote = false,
@@ -1997,7 +1997,7 @@ TEAM_COMMAND = DarkRP.createJob("Regimental Commander", {
     end
 })
 
-TEAM_COMMAND = DarkRP.createJob("Marshal Commander Rage", {
+TEAM_COMMAND = DarkRP.createJob("Marshal Commander Poy", {
     color = Color(255, 0, 0, 255),
     model = {"models/player/suno/hero/specialist_general_2.mdl"},
     description = [[Marshal Commander Rage]],
@@ -2017,69 +2017,7 @@ TEAM_COMMAND = DarkRP.createJob("Marshal Commander Rage", {
     end
 })
 
-TEAM_COMMAND = DarkRP.createJob("Senior Commander Poy", {
-    color = Color(255, 0, 0, 255),
-    model = {"models/player/dolan/dolan_specreg/dolan_specreg.mdl","models/player/gary/bln/starwars/arc/tragic.mdl"},
-    description = [[Senior for Attack]],
-    weapons = {"dradio", "realistic_hook", "climb_swep2", "clone_card_c4", "rw_sw_dual_dc17", "rw_sw_westarm5", "zeus_thermaldet", "salute_swep", "cross_arms_swep"},
-    command = "senpoy",
-    max = 1,
-    salary = 500,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "High Command",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
 
-TEAM_COMMAND = DarkRP.createJob("Senior Commander Aiden", {
-    color = Color(255, 0, 0, 255),
-    model = {"models/player/gary/commission/starwars/kindro.mdl"},
-    description = [[Senior for Defense]],
-    weapons = {"dradio", "realistic_hook", "climb_swep2", "clone_card_c4", "tfa_dlt20a_extended", "rw_sw_westarm5", "zeus_thermaldet", "salute_swep", "cross_arms_swep"},
-    command = "senaid",
-    max = 1,
-    salary = 500,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "High Command",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
-
-TEAM_COMMAND = DarkRP.createJob("Marshal Commander", {
-    color = Color(255, 0, 0, 255),
-      model = {
-        "models/sample/sector/general/general.mdl",
-        "models/lazarusgaming/lgarctrooper/lgarctrooper.mdl",
-        "models/player/suno/redmairo2/redmairo.mdl"
-    },
-    description = [[Marshal Commander]],
-    weapons = {"dradio", "realistic_hook", "climb_swep2", "clone_card_c4", "rw_sw_dp23", "rw_sw_westarm5", "weapon_bactainjector", "salute_swep", "weapon_rpw_binoculars", "cross_arms_swep"},
-    command = "cmetts",
-    max = 1,
-    salary = 500,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "High Command",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
-    end
-})
 
 --[[
     Generated using: DarkRP | Job Generator
@@ -3170,7 +3108,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Commander", {
         "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
     },
     description = [[Commander of a Spec ops regiment which mainly focuses on recon and assassinations]],
-    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c4", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep"},
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c4", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep", "rw_sw_dc19le"},
     command = "shdcmd",
     max = 1,
     salary = 100,
@@ -3179,6 +3117,11 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Commander", {
     hasLicense = true,
     candemote = false,
     category = "73rd Shadow Battalion"
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
 })
 
 --[[
@@ -3193,7 +3136,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Officer", {
         "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
     },
     description = [[Officer of a Spec ops regiment which mainly focuses on recon and assassinations]],
-    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c3", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep"},
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c3", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep", "rw_sw_dc19le"},
     command = "shdcpt",
     max = 2,
     salary = 100,
@@ -3202,6 +3145,11 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Officer", {
     hasLicense = true,
     candemote = false,
     category = "73rd Shadow Battalion"
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
 })
 
 --[[
@@ -3211,11 +3159,11 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Officer", {
 TEAM_SHADOW = DarkRP.createJob("Shadow Trooper", {
     color = Color(0, 0, 0, 255),
     model = {
-        "models/cgi_ultimate/shadow/trooper/trooper.mdl",
+        "models/cgi_ultimate/shadow/sergeant/sergeant.mdl",
         "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
     },
     description = [[Trooper of a Spec ops regiment which mainly focuses on recon and assassinations]],
-    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep"},
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep", "rw_sw_dc19le"},
     command = "shdtrp",
     max = 6,
     salary = 100,
@@ -3224,6 +3172,11 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Trooper", {
     hasLicense = true,
     candemote = false,
     category = "73rd Shadow Battalion"
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
 })
 
 --[[
@@ -3237,7 +3190,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Pilot", {
         "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
     },
     description = [[The pilot of a Spec ops regiment which mainly focuses on recon and assassinations]],
-    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep"},
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep", "rw_sw_dc19le"},
     command = "shdpil",
     max = 2,
     salary = 100,
@@ -3246,6 +3199,11 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Pilot", {
     hasLicense = true,
     candemote = false,
     category = "73rd Shadow Battalion"
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
 })
 
 --[[
@@ -3259,7 +3217,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Medic", {
         "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
     },
     description = [[Medic of a Spec ops regiment which mainly focuses on recon and assassinations]],
-    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_defibrillator"},
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep", "weapon_bacta_grenade", "weapon_bactainjector", "weapon_defibrillator", "rw_sw_dc19le"},
     command = "shdmed",
     max = 2,
     salary = 100,
@@ -3268,9 +3226,58 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Medic", {
     hasLicense = true,
     candemote = false,
     category = "73rd Shadow Battalion"
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
 })
 
+TEAM_SHADOW = DarkRP.createJob("Shadow ARF", {
+    color = Color(0, 0, 0, 255),
+    model = {
+        "models/cgi_ultimate/shadow/arf/arf.mdl",
+        "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
+    },
+    description = [[Trooper of a Spec ops regiment which mainly focuses on recon and assassinations]],
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep", "rw_sw_dc19le", "weapon_rpw_binoculars"},
+    command = "shdtrp",
+    max = 6,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "73rd Shadow Battalion"
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
 
+TEAM_SHADOW = DarkRP.createJob("Shadow Paratroopers", {
+    color = Color(0, 0, 0, 255),
+    model = {
+        "models/cgi_ultimate/shadow/paratrooper/paratrooper.mdl",
+        "models/reizer_cgi_p2/spec_snow/spec_snow.mdl"
+    },
+    description = [[Trooper of a Spec ops regiment which mainly focuses on recon and assassinations]],
+    weapons = {"rw_sw_dc17ext", "weapon_hexshield", "cloaking-3", "clone_card_c2", "realistic_hook", "climb_swep2", "m9k_knife", "dradio", "salute_swep", "crossarm_swep", "rw_sw_dc19le", "tfa_kotor_repeaten_1"},
+    command = "shdtrp",
+    max = 6,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "73rd Shadow Battalion"
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------]]
