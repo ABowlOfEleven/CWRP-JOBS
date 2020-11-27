@@ -3278,6 +3278,46 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Paratroopers", {
         ply:SetArmor(150)
     end
 })
+
+TEAM_FRAGOUT = DarkRP.createJob("CT-6852 Fragout", {
+    color = Color(115, 18, 11),
+    model = {"models/player/suno/keelicompany/hawkeye/hawkeye.mdl"},
+    description = [[CT-6852 Fragout: Xo of keeli company.]],
+    weapons = {"rw_sw_dual_dc15s", "rw_sw_dc15x", "weapon_rpw_binoculars", "rw_ammo_distributor", "seal6-c4", "dradio", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2"},
+    command = "fragout",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+         PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
+
+TEAM_SWITCH = DarkRP.createJob("CT-7682 Switch", {
+    color = Color(115, 18, 11),
+    model = {"models/player/suno/keelicompany/medic/medic.mdl"},
+    description = [[CT-7682 Switch: A combat medic for Keeli Company.]],
+    weapons = {"rw_sw_westarm5", "weapon_defibrillator","weapon_bactainjector","weapon_bactagrenade", "weapon_hexshield", "dradio", "salute_swep", "cross_arms_swep", "cross_arms_infront_swep", "climb_swep2"},
+    command = "switch",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+         PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------]]
