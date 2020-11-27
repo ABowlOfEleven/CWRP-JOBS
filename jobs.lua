@@ -3116,7 +3116,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Commander", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "73rd Shadow Battalion"
+    category = "73rd Shadow Battalion",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
@@ -3144,7 +3144,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Officer", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "73rd Shadow Battalion"
+    category = "73rd Shadow Battalion",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
@@ -3171,7 +3171,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Trooper", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "73rd Shadow Battalion"
+    category = "73rd Shadow Battalion",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
@@ -3198,7 +3198,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Pilot", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "73rd Shadow Battalion"
+    category = "73rd Shadow Battalion",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
@@ -3225,7 +3225,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Medic", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "73rd Shadow Battalion"
+    category = "73rd Shadow Battalion",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
@@ -3248,7 +3248,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow ARF", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "73rd Shadow Battalion"
+    category = "73rd Shadow Battalion",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
@@ -3271,7 +3271,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Paratroopers", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "73rd Shadow Battalion"
+    category = "73rd Shadow Battalion",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(250)
         ply:SetHealth(250)
