@@ -2534,6 +2534,25 @@ TEAM_ATLANTA = DarkRP.createJob("91st: Atlanta Lightning Squad Lead", {
     end
 })
 
+TEAM_INTELLIGENCE = DarkRP.createJob("Intelligence Enforcer", {
+    color = Color(153, 153, 153, 255),
+    model = {"models/gonzo/malkiaxclonetroopers/mcintelligencecommander/mcintelligencecommander.mdl"},
+    description = [[This boi does intelligence...and enforces it. Weeeeeeeeeee!]],
+    weapons = {"dradio", "salute_swep", "rw_sw_dc19le", "rw_sw_z6", "cloaking-3", "realistic_hook", "weapon_doomshield"},
+    command = "Intel",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(200)
+        ply:SetArmor(150)
+    end
+})
 
 TEAM_EXOCREED = DarkRP.createJob("Dysdaimon Strategos Exocreed", {
     color = Color(0, 128, 128, 255),
@@ -2758,11 +2777,11 @@ TEAM_TORCH = DarkRP.createJob("Mandalorian Freelancer: Torch", {
     end
 })
 
-TEAM_BEE = DarkRP.createJob("Chancellor's Secretary", {
+TEAM_BEE = DarkRP.createJob("A Normal Bartender", {
     color = Color(100, 20, 100, 255),
-    model = {"models/player/scifi_zoey.mdl"},
-    description = [[She was tasked by the Palpatine himself to go down to this base and report back to him what happens on (Major Events, Small Events, What happens in general on base). She was trained to be a steady hand in battle so don't let your guard down around her because she will put a hole in between your eyes. She's climbed up to be Palpatines Secretary through standing her ground because she will let you know how it is. She's also been trained to Agile and Fast making sure she can fend for herself in tough situations. Using her Wit and Sharp tongue she's been tasked to attend the Troopers down on the Base.  ]],
-    weapons = {"tfa_swch_dual_elg3a","realistic_hook", "tfa_dh17", "dradio","climb_swep2","cross_arms_swep","cross_arms_infront_swep", "salute_swep"},
+    model = {"models/pacagma/ffvii_remake/honey_bee_girl/honey_bee_girl_player.mdl"},
+    description = [[She’s totally a normal bartender, not an agent that works for the Republic.  ]],
+    weapons = {"rw_sw_westarm5","rw_sw_dc15x", "cloaking-3", "zeus_flashbang","seal6-c4", "dradio","climb_swep2","cross_arms_swep","cross_arms_infront_swep", "salute_swep"},
     command = "cbee",
     max = 1,
     salary = 500,
@@ -2772,9 +2791,9 @@ TEAM_BEE = DarkRP.createJob("Chancellor's Secretary", {
     candemote = false,
     category = "Custom Classes",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(230)
-        ply:SetHealth(230)
-        ply:SetArmor(135)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
     end
 })
 
@@ -3040,8 +3059,65 @@ TEAM_LITTLE = DarkRP.createJob("444th Pilot Sora", {
         ply:SetArmor(50)
     end
 })
+TEAM_JACK = DarkRP.createJob("Jack of All Trades", {
+    color = Color(25, 99, 168, 255),
+    model = {"models/player/liquid/general/bullseye/bullseyetrooper.mdl"},
+    description = [[The clone made for either charging in head first or setting up behind 27 helmets, this guy can set up defenses or (literally) blow through the enemy lines.]],
+    weapons = {"seal6-c4", "alydus_fortificationbuildertablet", "weapon_bacta_grenade", "weapon_bactainjector", "rw_sw_dual_dc17s", "rw_sw_westarm5", "clone_card_c2", "salute_swep", "climb_swep2", "dradio",  "weapon_defibrillator"},
+    command = "cjack",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "444th Elite Medic Squad",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(100)
+    end
+})
 
+TEAM_HANS = DarkRP.createJob("Monarch", {
+    color = Color(255, 0, 0, 255),
+    model = {"models/kylejwest/synergyroleplay/sr3dnullmereelmando/sr3dnullmereelmando.mdl"},
+    description = [[Hoe- I mean... hope, I mean hope.]],
+    weapons = {"rw_sw_stun_dc15s","gauss", "clone_card_c3navy", "dradio", "salute_swep", "climb_swep2", "rw_sw_dc17s", "tfa_mass_shield", "rw_sw_dual_dc17s", "weapon_cuff_elastic",  "weapon_bactanade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator"},
+    command = "cmonarch",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
 
+TEAM_CHIPPYCUSTOM = DarkRP.createJob("Repurposed Tactical Droid", {
+    color = Color(255, 0, 0, 255),
+    model = {"models/npc/tactical_droid/bluetacticaldroid.mdl"},
+    description = [[Infiltration and Navy]],
+    weapons = {"tfa_sw_cisshot","se14_blaster_pistol", "clone_card_c4", "dradio", "salute_swep", "climb_swep2", "alydus_fusioncutter", "realistic_hook"},
+    command = "chippy",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Custom Classes",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(50)
+    end
+})
 
 --[[
     Generated using: DarkRP | Job Generator
@@ -3068,33 +3144,6 @@ TEAM_PALPATINE = DarkRP.createJob("Palpatine", {
     end
 })
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
-TEAM_VIP = DarkRP.createJob("Walking Hutt", {
-    color = Color(255, 214, 0, 255),
-    model = {"models/player/hutt/huttjedi.mdl"},
-    description = [[Everybody gangsta till Hutt start walkin]],
-    weapons = {"pack_swswep_jabba"},
-    command = "chutt",
-    max = 1,
-    salary = 150,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "VIP Classes",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
-    end
-})
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 
 --[[
     Generated using: DarkRP | Job Generator
@@ -3206,10 +3255,7 @@ TEAM_SHADOW = DarkRP.createJob("Shadow Pilot", {
     end
 })
 
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
+
 TEAM_SHADOW = DarkRP.createJob("Shadow Medic", {
     color = Color(0, 0, 0, 255),
     model = {
@@ -3318,6 +3364,267 @@ TEAM_SWITCH = DarkRP.createJob("CT-7682 Switch", {
         ply:SetArmor(150)
     end
 })
+--[[
+	VIP JOBS START HERE
+	THE JOBS ARE MADE BY BEE WRITTEN BY ESFAR (IF THERE ARE ANY ISSUES)
+--]]
+
+TEAM_WH = DarkRP.createJob("Walking Hutt [VAULT 1]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/player/hutt/huttjedi.mdl"},
+    description = [[Everybody gangsta till Hutt start walkin]],
+    weapons = {"pack_swswep_jabba"},
+    command = "chutt",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 1 [Standard Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
+})
+
+TEAM_ASTROMECH = DarkRP.createJob("Astromech [VAULT 1]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/kingpommes/starwars/misc/droids/r2_q5.mdl"},
+    description = [[Droids are friends not food]],
+    weapons = {"weapons_taser", "alydus_fusioncutter"},
+    command = "astro",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 1 [Standard Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
+
+
+
+TEAM_JANITOR = DarkRP.createJob("Base Janitor [VAULT 1]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/player/clone engineer/ccgi engineer.mdl"},
+    description = [[A prestige even the gods wish they could be.]],
+    weapons = {"rw_sw_dc17s", "broom"},
+    command = "janitor",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 1 [Standard Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(100)
+    end
+})
+
+TEAM_WOOKIE = DarkRP.createJob("Wookie [VAULT 2]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/tfa/comm/gg/pm_sw_chewbacca.mdl"},
+    description = [[Rwar says the little bear]],
+    weapons = {"tfa_bowcaster", "zeus_thermaldet", "pack_swswep_chewie"},
+    command = "wookie",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 2 [Elite Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(550)
+        ply:SetHealth(550)
+        ply:SetArmor(300)
+    end
+})
+
+TEAM_MESSENGER = DarkRP.createJob("Messenger [VAULT 2]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/player/swbf_imperial_isb_agentv2/swbf_imperial_isb_agentv2.mdl"},
+    description = [[You’ve got mail!]],
+    weapons = {"rw_sw_dc17s"},
+    command = "messenger",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 2 [Elite Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(550)
+        ply:SetHealth(550)
+        ply:SetArmor(300)
+        ply:SetWalkSpeed(550)
+        ply:SetRunSpeed(950)
+    end
+})
+
+TEAM_EWOK = DarkRP.createJob("Ewok [VAULT 2]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/ewoks.mdl"},
+    description = [[Rwar says the little bear]],
+    weapons = {"rw_sw_dc17s", "ewok_spear_1", "ewok_spear_2", "ewok_spear_3", "weapon_shaman"},
+    command = "ewok",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 2 [Elite Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
+
+
+
+TEAM_REPRO = DarkRP.createJob("Reprogrammed Droideka [VAULT 3]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/starwars/stan/droidekas/droideka.mdl"},
+    description = [[Rwar says the little bear]],
+    weapons = {"weapon_hexshield", "rw_sw_droideka"},
+    command = "repro",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 3 [Super Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(550)
+        ply:SetHealth(550)
+        ply:SetArmor(330)
+    end
+})
+
+
+TEAM_BUSD = DarkRP.createJob("Base Transport Driver [VAULT 3]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/player/swbf_imperial_isb_agentv2/swbf_imperial_isb_agentv2.mdl"},
+    description = [[Where to boss?]],
+    weapons = {"rw_sw_dc17s"},
+    command = "busd",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 3 [Super Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(100)
+    end
+})
+
+TEAM_BOKATAN = DarkRP.createJob("Bo-Katan [VAULT 3]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/gonzo/cgicloneassassin/cgicloneassassin.mdl"},
+    description = [[I AM BO-KATAN OF CLAN KRYZE. I WAS BORN ON MANDALORE AND FOUGHT IN THE PURGE. I AM THE LAST OF MY LINE]],
+    weapons = {"zx_wrist_flamethrower", "realistic_hook", "zeus_smokegranade"},
+    command = "bokatan",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 3 [Super Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(450)
+        ply:SetHealth(450)
+        ply:SetArmor(200)
+    end
+})
+
+
+
+
+
+TEAM_YOUNGLING = DarkRP.createJob("Youngling [VAULT 4]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/jazzmcfly/jka/younglings/jka_young_male.mdl", "models/jazzmcfly/jka/younglings/jka_young_female.mdl"},
+    description = [[Don’t blink you’ll miss them killing you.]],
+    weapons = {"weapon_lightsaber_personal"},
+    command = "younglingvip",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 4 [Eternal Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(1000)
+        ply:SetHealth(1000)
+        ply:SetArmor(500)
+    end
+})
+
+TEAM_REPUBLICASS = DarkRP.createJob("Republic Assasin [VAULT 4]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/gonzo/cgicloneassassin/cgicloneassassin.mdl"},
+    description = [[Force Sensitive Little Pricks]],
+    weapons = {"sfw_staffv2", "rw_sw_dc15x", "cloaking-3", "realistic_hook", "zeus_smokegranade", "zeus_flashbang", "zeus_thermaldet"},
+    command = "republicass",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 4 [Eternal Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(400)
+        ply:SetHealth(400)
+        ply:SetArmor(250)
+    end
+})
+
+
+TEAM_INFORMANT = DarkRP.createJob("Informant [VAULT 4]", {
+    color = Color(255, 214, 0, 255),
+    model = {"models/player/n7legion/geth_infiltrator.mdl"},
+    description = [[Your information isn’t classified to me.]],
+    weapons = {"tfa_mass_sword", "zx_wrist_flamethrower", "cloaking-3", "realistic_hook", "t3m4_empgrenade", "zeus_smokegranade"},
+    command = "informant",
+    max = 1,
+    salary = 150,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Vault 4 [Eternal Supporter +]",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(550)
+        ply:SetHealth(550)
+        ply:SetArmor(340)
+    end
+})
+
+
+
+
+
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------]]
