@@ -1244,7 +1244,7 @@ TEAM_104 = DarkRP.createJob("104th Mechanical Battalion: Wolfpack Medic", {
     description = [[The 104th Battalion, also known as the "Wolf Pack" Battalion, the Wolfpack Battalion, or simply the "Wolfpack," was a clone trooper military battalion of the Grand Army of the Republic. The 104th was led by Jedi General Plo Koon and Clone Commander CC-3636, also known by his clone trooper nickname of "Wolffe," throughout the Clone Wars.]],
     weapons = {"dradio", "rw_sw_westarm5", "rw_sw_dual_dc17", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c3", "alydus_fusioncutter", "weapon_bactanade", "weapon_bactainjector", "weapon_hexshield", "weapon_defibrillator", "seal6-c4", "zeus_thermaldet"},
     command = "104wpm",
-    max = 1,
+    max = 5,
     salary = 250,
     admin = 0,
     vote = false,
@@ -1268,7 +1268,7 @@ TEAM_104 = DarkRP.createJob("104th Mechanical Battalion: Wolfpack Trooper", {
     description = [[The 104th Battalion, also known as the "Wolf Pack" Battalion, the Wolfpack Battalion, or simply the "Wolfpack," was a clone trooper military battalion of the Grand Army of the Republic. The 104th was led by Jedi General Plo Koon and Clone Commander CC-3636, also known by his clone trooper nickname of "Wolffe," throughout the Clone Wars.]],
     weapons = {"dradio", "rw_sw_westarm5", "weapon_rpw_binoculars", "salute_swep", "climb_swep2", "clone_card_c2", "alydus_fusioncutter", "seal6-c4", "zeus_thermaldet"},
     command = "104wpt",
-    max = 1,
+    max = 5,
     salary = 250,
     admin = 0,
     vote = false,
@@ -1282,6 +1282,25 @@ TEAM_104 = DarkRP.createJob("104th Mechanical Battalion: Wolfpack Trooper", {
     end
 })
 
+TEAM_104 = DarkRP.createJob("104th Mechanical Battalion: Wolfpack Pilot Warthog", {
+    color = Color(133, 133, 133, 255),
+    model = {"models/player/gideon/104th/104th_warthog/104th_warthog.mdl"},
+    description = [[The 104th Battalion, also known as the "Wolf Pack" Battalion, the Wolfpack Battalion, or simply the "Wolfpack," was a clone trooper military battalion of the Grand Army of the Republic. The 104th was led by Jedi General Plo Koon and Clone Commander CC-3636, also known by his clone trooper nickname of "Wolffe," throughout the Clone Wars.]],
+    weapons = {"dradio", "rw_sw_westarm5", "salute_swep", "climb_swep2", "clone_card_c2", "alydus_fusioncutter", "zeus_thermaldet"},
+    command = "104Warthog",
+    max = 5,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "104th Mechanical Battalion",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(200)
+    end
+})
 --[[
     Generated using: DarkRP | Job Generator
     https://csite.io/tools/gmod-darkrp-job
@@ -3434,7 +3453,7 @@ TEAM_JANITOR = DarkRP.createJob("Base Janitor [VAULT 1]", {
 TEAM_WOOKIE = DarkRP.createJob("Wookie [VAULT 2]", {
     color = Color(255, 214, 0, 255),
     model = {"models/tfa/comm/gg/pm_sw_chewbacca.mdl"},
-    description = [[Rwar says the little bear]],
+    description = [[Big Bear]],
     weapons = {"tfa_bowcaster", "zeus_thermaldet", "pack_swswep_chewie"},
     command = "wookie",
     max = 1,
@@ -3498,7 +3517,7 @@ TEAM_EWOK = DarkRP.createJob("Ewok [VAULT 2]", {
 TEAM_REPRO = DarkRP.createJob("Reprogrammed Droideka [VAULT 3]", {
     color = Color(255, 214, 0, 255),
     model = {"models/starwars/stan/droidekas/droideka.mdl"},
-    description = [[Rwar says the little bear]],
+    description = [[Top Tier Meatball]],
     weapons = {"weapon_hexshield", "rw_sw_droideka"},
     command = "repro",
     max = 1,
@@ -3538,7 +3557,7 @@ TEAM_BUSD = DarkRP.createJob("Base Transport Driver [VAULT 3]", {
 
 TEAM_BOKATAN = DarkRP.createJob("Bo-Katan [VAULT 3]", {
     color = Color(255, 214, 0, 255),
-    model = {"models/gonzo/cgicloneassassin/cgicloneassassin.mdl"},
+    model = {" models/gonzo/femalemandalorians/femalemandalorian8/femalemandalorian8.mdl"},
     description = [[I AM BO-KATAN OF CLAN KRYZE. I WAS BORN ON MANDALORE AND FOUGHT IN THE PURGE. I AM THE LAST OF MY LINE]],
     weapons = {"zx_wrist_flamethrower", "realistic_hook", "zeus_smokegranade"},
     command = "bokatan",
@@ -3563,7 +3582,7 @@ TEAM_BOKATAN = DarkRP.createJob("Bo-Katan [VAULT 3]", {
 TEAM_YOUNGLING = DarkRP.createJob("Youngling [VAULT 4]", {
     color = Color(255, 214, 0, 255),
     model = {"models/jazzmcfly/jka/younglings/jka_young_male.mdl", "models/jazzmcfly/jka/younglings/jka_young_female.mdl"},
-    description = [[Don’t blink you’ll miss the part where they killed you.]],
+    description = [[Force Sensitive Little Pricks]],
     weapons = {"meleearts_bludgeon_pipe"},
     command = "younglingvip",
     max = 1,
@@ -3583,7 +3602,7 @@ TEAM_YOUNGLING = DarkRP.createJob("Youngling [VAULT 4]", {
 TEAM_REPUBLICASS = DarkRP.createJob("Republic Assasin [VAULT 4]", {
     color = Color(255, 214, 0, 255),
     model = {"models/gonzo/cgicloneassassin/cgicloneassassin.mdl"},
-    description = [[Force Sensitive Little Pricks]],
+    description = [[Don’t blink you’ll miss the part where they killed you.]],
     weapons = {"sfw_staffv2", "rw_sw_dc15x", "cloaking-3", "realistic_hook", "zeus_smokegranade", "zeus_flashbang", "zeus_thermaldet"},
     command = "republicass",
     max = 1,
